@@ -56,6 +56,17 @@ class SiteTests(unittest.TestCase):
         output = build(self.root, Path(self.temp.name) / "render")
         self.assertIn("No evaluations saved yet", (output / "index.html").read_text())
 
+    def test_estimated_commute_range_and_year_render(self):
+        self.record["year_built"] = 2017
+        self.record["commutes"] = [{"destination": "Lisa's Work", "candidate_minutes_range": "~34–39 min estimated", "impact": "longer"}]
+        self.save_record()
+        output = build(self.root, Path(self.temp.name) / "render")
+        detail = (output / "properties/123-example-lane/index.html").read_text()
+        self.assertIn("~34–39 min estimated", detail)
+        self.assertIn("7.2/10", detail)
+        self.assertIn("2017", detail)
+        self.assertNotIn("2,017", detail)
+
     def test_private_address_fails_and_removes_output(self):
         profile = json.loads((self.root / "buyer_profile.json").read_text())
         profile["destinations"]["lisa_work"]["routing_address"] = "123 Secret Lane, Sample, WI"
