@@ -6,7 +6,7 @@ The repository starts without production property records. No past evaluations h
 
 ## Add or update a property
 
-1. Research the property using the buyer profile and `evaluations/TEMPLATE.md`. Check current status, photos, sale comps, land constraints, taxes, and the three commute destinations. Save the narrative at `evaluations/<slug>.md`.
+1. Research the property using the Project's private buyer profile and `evaluations/TEMPLATE.md`. Check current status, photos, sale comps, land constraints, taxes, and the three commute destinations. Save the narrative at `evaluations/<slug>.md`.
 2. Save its summary at `data/properties/<slug>.json`. The `slug` and `evaluation_markdown` fields must agree with the filenames. Use `null` for unknown facts, never `false` or "No" as a substitute for missing evidence. Avoid private destination street addresses in the narrative or summary.
 3. Run tests and build. Review `_site/index.html` and `_site/properties/<slug>/index.html`; commit both source files. Push to `main` to deploy.
 
@@ -50,7 +50,7 @@ Minimal record example (illustrative only; no synthetic record is committed to p
 
 `lot_acres` means **exclusive** parcel acreage. Describe undivided/common land separately in the narrative and, if useful, a future optional field. Keep above-grade and finished below-grade area separate. Record meaningful source conflicts and the source/date in the Markdown; do not silently pick a winner. Mapped wetland is not a surveyed delineation. `buyer_fit_score` is a convenience score, **not** a value estimate. Comp similarity helps prioritize analysis but never calculates an offer.
 
-`commutes` contains result labels only, for example `{"destination":"Lisa's Work","candidate_minutes":38,"impact":"materially worse"}`. The canonical private route inputs and baselines stay in `buyer_profile.json` and are never copied into `_site`. Source JSON and Markdown are in the repository, so decide deliberately what is appropriate to commit and publish. The build scans the generated site for the known destination addresses and fails if it finds one.
+`commutes` contains result labels only, for example `{"destination":"Lisa's Work","candidate_minutes":38,"impact":"materially worse"}`. This public repository's `buyer_profile.json` contains criteria, weights, labels, and commute baselines, but **no destination street addresses**. The full route addresses remain in the private ChatGPT Project profile. Source JSON and Markdown are public too, so review them before committing. The build checks the generated site against hashed known private street lines and fails if it finds one.
 
 ## Local commands
 
@@ -70,7 +70,7 @@ python -m property_eval.comps --subject subject.json --comps comps.csv
 python -m property_eval.routing --subject "Property address" --format json
 ```
 
-Scoring uses the unchanged buyer profile weights and renormalizes missing ratings. The routing helper uses public Nominatim/OSRM without traffic by default, or Google Routes with `GOOGLE_MAPS_API_KEY`; it may fail in restricted networks. Its geocode cache is local working data and should be reviewed before committing new entries. Comps are supplied manually as a CSV; the tool only ranks them.
+Scoring uses the unchanged buyer profile weights and renormalizes missing ratings. For optional local routing, copy the Project's full `buyer_profile.json` to `private/buyer_profile.json` (ignored by Git), or pass its path with `--profile`. The routing helper uses public Nominatim/OSRM without traffic by default, or Google Routes with `GOOGLE_MAPS_API_KEY`; it may fail in restricted networks. Its geocode cache is local working data and should be reviewed before committing new entries. Comps are supplied manually as a CSV; the tool only ranks them.
 
 ## Deployment
 

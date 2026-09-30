@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_name": "Property Evaluations - Buyer Profile",
+  "updated": "2026-08-17",
+  "timezone": "America/Chicago",
+  "destinations": {
+    "lisa_work": {
+      "label": "Lisa's Work",
+      "baseline_no_traffic_minutes": 31
+    },
+    "sams_parents": {
+      "label": "Sam's Parents",
+      "baseline_no_traffic_minutes": 35
+    },
+    "lisas_mom": {
+      "label": "Lisa's Mom",
+      "baseline_no_traffic_minutes": 25
+    }
+  },
+  "requirements": {
+    "garden": {
+      "priority": "high",
+      "minimum_clear_width_ft": 30,
+      "minimum_clear_length_ft": 40,
+      "minimum_clear_area_sqft": 1200,
+      "notes": "Prefer sunny, usable, reasonably level/fenceable space."
+    },
+    "kitchen": {
+      "priority": "very_high",
+      "notes": "Spend a lot of time in the kitchen; weight layout/function, prep area, storage, appliance placement, natural light, finishes, and upgrade burden."
+    },
+    "mudroom": {
+      "priority": "high",
+      "notes": "Entry area off garage should contain coats/shoes/bags without invading the main living area."
+    },
+    "pantry": {
+      "priority": "medium",
+      "deal_breaker": false,
+      "notes": "Decent pantry preferred; cabinetry alone should not automatically count as a pantry."
+    },
+    "garage_outbuilding": {
+      "priority": "high",
+      "ideal": "3+ car garage",
+      "acceptable": "2+ car garage plus decent-sized garden shed",
+      "notes": "More garage space is better; verify actual dimensions and outbuilding restrictions."
+    },
+    "basement_storage": {
+      "priority": "high",
+      "notes": "Need decent unfinished utility/storage space even when basement has finished rooms."
+    },
+    "lot_privacy": {
+      "priority": "very_high",
+      "notes": "Favor larger lots, mature trees, natural areas, wildlife, usable yard, low neighbor exposure, and low future-development risk."
+    },
+    "children_outdoors": {
+      "priority": "high",
+      "notes": "Favor practical play space and usable outdoor areas."
+    },
+    "outbuilding_potential": {
+      "priority": "medium_high",
+      "notes": "Check zoning, setbacks, HOA/covenants, wetlands, and buildable envelope."
+    },
+    "taxes": {
+      "priority": "high",
+      "notes": "Low carrying cost matters; compare taxes to plausible purchase price, not assessment alone."
+    },
+    "resale": {
+      "priority": "high",
+      "notes": "Prefer durable resale traits: useful land, functional layout, garage, setting, tax burden, condition, and access."
+    }
+  },
+  "scoring": {
+    "scale": "0-10",
+    "experimental": true,
+    "weights": {
+      "kitchen": 16,
+      "lot_privacy": 15,
+      "garage_outbuilding": 11,
+      "mudroom": 10,
+      "location": 10,
+      "garden": 8,
+      "basement_storage": 8,
+      "resale": 8,
+      "taxes": 6,
+      "condition_capex": 5,
+      "pantry": 3
+    },
+    "guidance": "Score is a comparison aid, not a valuation model. Missing categories are renormalized. Final property and offer conclusions remain judgment-based."
+  },
+  "location_comparison": {
+    "material_change_minutes": 5,
+    "material_change_percent": 15,
+    "notes": "Treat either ~5 minutes or ~15% change as potentially material; Lisa work commute should also consider weekday traffic."
+  }
+}

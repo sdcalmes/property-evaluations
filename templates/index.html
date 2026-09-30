@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Property Evaluations</title>
+  <link rel="stylesheet" href="{{ base }}static/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="wrap">
+    <span class="eyebrow">BUYER RESEARCH</span>
+    <h1>Property Evaluations</h1>
+    <p>A working shortlist with the facts, tradeoffs, and full analysis in one place.</p>
+  </div></header>
+  <main class="wrap">
+    <div class="toolbar"><div><h2>Evaluated properties</h2><p>{{ properties|length }} record{{ '' if properties|length == 1 else 's' }}</p></div>
+    {% if properties %}<label>Search <input id="search" type="search" placeholder="Address, status, notes…" aria-label="Search properties"></label>{% endif %}</div>
+    {% if properties %}
+    <div class="grid" id="properties">
+      {% for p in properties %}
+      <article class="card" data-search="{{ (p.address ~ ' ' ~ (p.status or '') ~ ' ' ~ (p.pricing_conclusion or '') ~ ' ' ~ (p.major_positives|default([])|join(' ')) ~ ' ' ~ (p.major_concerns|default([])|join(' ')))|lower }}">
+        <div class="card-top"><span class="pill">{{ display(p.status) }}</span><span class="date">{{ display(p.evaluation_date) }}</span></div>
+        <h3><a href="{{ base }}properties/{{ p.slug }}/">{{ p.address }}</a></h3>
+        <div class="numbers"><div><small>Asking</small><strong>{{ money(p.current_list_price) }}</strong></div><div><small>Buyer fit</small><strong>{{ display(p.buyer_fit_score, '/10') }}</strong></div></div>
+        <p class="facts">{{ display(p.beds) }} bd · {{ display(p.baths) }} ba · {{ display(p.above_grade_sqft, ' above-grade sq ft') }} · {{ display(p.lot_acres, ' acres') }}</p>
+        <p><b>Value:</b> {{ price_range(p.estimated_value_low, p.estimated_value_high) }}</p>
+        <p><b>Pricing:</b> {{ display(p.pricing_conclusion) }}</p>
+        {% if p.major_positives %}<p class="summary"><b>Highlights</b> {{ p.major_positives[:2]|join('; ') }}</p>{% endif %}
+        {% if p.major_concerns %}<p class="summary"><b>Watch</b> {{ p.major_concerns[:2]|join('; ') }}</p>{% endif %}
+        <a class="more" href="{{ base }}properties/{{ p.slug }}/">Read full evaluation →</a>
+      </article>
+      {% endfor %}
+    </div>
+    <p id="no-results" hidden>No matching properties.</p>
+    {% else %}<section class="empty"><h3>No evaluations saved yet</h3><p>Completed evaluations will appear here after their JSON summary and Markdown report are added to the repository.</p></section>{% endif %}
+  </main>
+  {% if properties %}<script>
+    const input = document.querySelector('#search');
+    input.addEventListener('input', () => {
+      const query = input.value.trim().toLowerCase();
+      let shown = 0;
+      document.querySelectorAll('.card').forEach(card => {
+        card.hidden = !card.dataset.search.includes(query);
+        if (!card.hidden) shown++;
+      });
+      document.querySelector('#no-results').hidden = shown !== 0;
+    });
+  </script>{% endif %}
+</body>
+</html>
