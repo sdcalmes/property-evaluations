@@ -41,7 +41,7 @@ The mound system and its reserve area, drainage/utility easements, setbacks and 
 
 ## 5. Location / drive-time tradeoffs
 
-These are **approximate ranges carried from the August 28 private master-database evaluation**, based on geography/road access rather than newly measured routes. With the user's explicit approval, a Nominatim geocode attempt failed on one destination's unit-address format. A follow-up routing attempt was rejected by automatic approval review because the helper also sends private destination coordinates to a separate public OSRM service, which was not specifically approved. No precise route distance or traffic-aware time is claimed. The baselines are the saved current-home no-traffic times.
+These are **approximate ranges carried from the August 28 private master-database evaluation**, based on geography/road access rather than newly measured routes. A fresh routing attempt did not yield complete routes. No precise route distance or traffic-aware time is claimed. The baselines are the saved current-home no-traffic times.
 
 | Destination | Baseline | Candidate estimate | Interpretation |
 |---|---:|---:|---|
