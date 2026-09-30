@@ -21,12 +21,12 @@
         <div><dt>Value estimate</dt><dd>{{ price_range(property.estimated_value_low, property.estimated_value_high) }}</dd></div>
         <div><dt>Pricing read</dt><dd>{{ display(property.pricing_conclusion) }}</dd></div>
         <div><dt>Buyer fit</dt><dd>{{ display(property.buyer_fit_score, '/10') }} <small>— not a valuation</small></dd></div>
-        <div><dt>Beds / baths / year</dt><dd>{{ display(property.beds) }} / {{ display(property.baths) }} / {{ display(property.year_built) }}</dd></div>
+        <div><dt>Beds / baths / year</dt><dd>{{ display(property.beds) }} / {{ display(property.baths) }} / {{ property.year_built if property.year_built is not none else 'Unknown' }}</dd></div>
         <div><dt>Above / finished below grade</dt><dd>{{ display(property.above_grade_sqft, ' sq ft') }} / {{ display(property.below_grade_finished_sqft, ' sq ft') }}</dd></div>
         <div><dt>Garage / exclusive lot</dt><dd>{{ display(property.garage) }} / {{ display(property.lot_acres, ' acres') }}</dd></div>
         <div><dt>Utilities / HOA / taxes</dt><dd>{{ display(property.utilities) }} / {{ display(property.hoa) }} / {{ money(property.annual_taxes) }}</dd></div>
       </dl>
-      {% if property.commutes %}<h3>Drive times</h3><ul class="routes">{% for trip in property.commutes %}<li><b>{{ trip.destination }}</b> — {{ display(trip.candidate_minutes, ' min') }}{% if trip.impact %}<span>{{ trip.impact }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
+      {% if property.commutes %}<h3>Drive times</h3><ul class="routes">{% for trip in property.commutes %}<li><b>{{ trip.destination }}</b> — {{ trip.candidate_minutes_range if trip.candidate_minutes_range is defined and trip.candidate_minutes_range else display(trip.candidate_minutes, ' min') }}{% if trip.impact %}<span>{{ trip.impact }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
       {% if property.major_positives %}<h3>What stands out</h3><ul>{% for item in property.major_positives %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
       {% if property.major_concerns %}<h3>Concerns</h3><ul>{% for item in property.major_concerns %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
       {% if property.uncertainties %}<h3>To verify</h3><ul>{% for item in property.uncertainties %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
