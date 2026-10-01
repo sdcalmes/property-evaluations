@@ -1,0 +1,97 @@
+{
+  "slug": "11235-n-westwood-cir",
+  "address": "11235 N Westwood Circle, Mequon, WI 53097",
+  "listing_url": "https://www.realtor.com/realestateandhomes-detail/11235-N-Westwood-Cir_Mequon_WI_53097_M70025-88108",
+  "status": "Active",
+  "current_list_price": 750000,
+  "original_list_price": 750000,
+  "list_date": "2026-10-01",
+  "beds": 5,
+  "baths": 2.5,
+  "year_built": 2000,
+  "above_grade_sqft": 3443,
+  "below_grade_finished_sqft": 0,
+  "garage": "3-car attached; photo plan ~23'1 × 31'6, 743 sqft excluded garage; verify clear dimensions",
+  "lot_acres": 1.01,
+  "parcel_id": "141490009000",
+  "shared_land_description": "No common acreage included; adjacent natural vegetation ownership/protection unverified",
+  "utilities": "Private well; municipal sewer; natural gas forced air; central AC; owned softener reported",
+  "hoa": "Westwood of Mequon, $350/year reported; recorded covenants and garden/fence/outbuilding rules not obtained",
+  "annual_taxes": 8634,
+  "tax_year": 2025,
+  "ratings": {
+    "kitchen": 8.5,
+    "lot_privacy": 6.5,
+    "garage_outbuilding": 7.5,
+    "mudroom": 7,
+    "location": 5.5,
+    "garden": 8,
+    "basement_storage": 9,
+    "resale": 8,
+    "taxes": 7,
+    "condition_capex": 7
+  },
+  "buyer_fit_score": 7.4,
+  "estimated_value_low": 725000,
+  "estimated_value_high": 775000,
+  "pricing_conclusion": "Approximately fair at $750,000; provisional pending condition, dimensions and restrictions",
+  "opening_offer": "$730,000–$740,000 absent competing offers",
+  "reasonable_range": "$740,000–$760,000 after due diligence",
+  "caution_price": 770000,
+  "walk_away_price": 780000,
+  "commutes": [
+    {
+      "destination": "Lisa's Work",
+      "baseline_minutes": 31,
+      "candidate_minutes_range": "25–35 min geographic estimate; rush allowance 35–50 unmeasured",
+      "distance_miles": null,
+      "distance_miles_range": "17–23 estimated",
+      "impact": "Potentially similar; verify",
+      "provider": "Analyst geographic estimate; private-address route blocked",
+      "traffic_aware": false
+    },
+    {
+      "destination": "Sam's Parents",
+      "baseline_minutes": 35,
+      "candidate_minutes_range": "35–45 min geographic estimate",
+      "distance_miles": null,
+      "distance_miles_range": "25–33 estimated",
+      "impact": "Similar to moderately worse",
+      "provider": "Analyst geographic estimate; no measured route",
+      "traffic_aware": false
+    },
+    {
+      "destination": "Lisa's Mom",
+      "baseline_minutes": 25,
+      "candidate_minutes_range": "40–50 min geographic estimate",
+      "distance_miles": null,
+      "distance_miles_range": "28–36 estimated",
+      "impact": "Likely materially worse",
+      "provider": "Analyst geographic estimate; no measured route",
+      "traffic_aware": false
+    }
+  ],
+  "major_positives": [
+    "Cooking-oriented kitchen with substantial Wolf range, hood, granite and cabinetry",
+    "3,443 MLS above-grade sqft plus large upstairs bonus room",
+    "Three-car garage and separate garage-entry hall",
+    "Unfinished basement storage and broad open lawn"
+  ],
+  "major_concerns": [
+    "HOA garden/deer-fence and 30×40 outbuilding permission unknown",
+    "Rear neighbor exposure; not secluded acreage",
+    "Likely materially longer trips to Lisa's Mom",
+    "Roof, windows, deck and mechanical installation ages unknown"
+  ],
+  "uncertainties": [
+    "MLS 3,443 sqft versus photo floor plan 3,401 and stale Realtor 3,040",
+    "Official parcel/assessment/tax bill and GIS overlays not verified; assessment portal conflict $790,100/$797,000",
+    "Wilson versus Oriole Lane elementary boundary conflict",
+    "Pantry dimensions and equipped mudroom function",
+    "Adjacent natural-strip ownership, easements and future Lot 10 construction",
+    "Exact commute routing blocked; all commute ranges are broad geographic estimates",
+    "Basement digitally altered photo does not represent existing finished space"
+  ],
+  "evaluation_date": "2026-10-01",
+  "evaluation_markdown": "11235-n-westwood-cir.md"
+}
