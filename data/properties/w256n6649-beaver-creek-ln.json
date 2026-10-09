@@ -65,11 +65,11 @@
   "buyer_fit_score": 7.5,
   "estimated_value_low": 755000,
   "estimated_value_high": 795000,
-  "pricing_conclusion": "At user-reported $799,900, roughly fair/slightly rich at upper end of closed-comp-supported value, not a bargain; worthwhile to tour if HOA garden/fencing and owned solar verified",
+  "pricing_conclusion": "At user-reported $799,900, roughly fair/slightly rich at upper end of closed-comp-supported value, not a bargain; worthwhile to tour if HOA garden/fencing and owned solar verified No premium above supported high-end value without additional sale-comp evidence.",
   "opening_offer": "$755,000–$765,000",
   "reasonable_range": "$765,000–$790,000",
-  "caution_price": 800000,
-  "walk_away_price": 810000,
+  "caution_price": 795000,
+  "walk_away_price": 800000,
   "commutes": [
     {
       "destination": "Lisa's Work",
@@ -121,7 +121,8 @@
     "Photo pixels and basement condition not directly inspected",
     "Exact rush-hour routes and mileage not measured",
     "Specific roof/mechanicals ages and builder guarantee effective dates",
-    "Above/finished below grade area verified floor plan"
+    "Above/finished below grade area verified floor plan",
+    "Photographic condition review limited to one small exterior image; remaining originals not directly reviewed"
   ],
   "evaluation_date": "2026-10-09",
   "evaluation_markdown": "w256n6649-beaver-creek-ln.md"
