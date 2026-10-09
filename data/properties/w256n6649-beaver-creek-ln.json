@@ -1,0 +1,128 @@
+{
+  "slug": "w256n6649-beaver-creek-ln",
+  "address": "W256N6649 Beaver Creek Ln, Sussex, WI 53089",
+  "listing_url": "https://www.realtor.com/realestateandhomes-detail/W256N6649-Beaver-Creek-Ln_Sussex_WI_53089_M97141-92271",
+  "secondary_listing_url": "https://www.zillow.com/homedetails/W256N6649-Beaver-Creek-Ln-Sussex-WI-53089/461016178_zpid/",
+  "mls_number": "1970851",
+  "status": "Active (public feeds; user price reduction not independently verified)",
+  "current_list_price": 799900,
+  "price_verification": "Working $799,900 assumed from buyer's Oct 9 report of $40k cut; accessible public feeds last show $839,900 from Sep 15",
+  "original_list_price": 889900,
+  "list_date": "2026-03-13",
+  "relist_date": "2026-07-09",
+  "price_reduction_history": [
+    {
+      "date": "2026-07-09",
+      "price": 879900
+    },
+    {
+      "date": "2026-07-28",
+      "price": 864900
+    },
+    {
+      "date": "2026-09-01",
+      "price": 854900
+    },
+    {
+      "date": "2026-09-15",
+      "price": 839900
+    },
+    {
+      "date": "2026-10-09",
+      "price": 799900,
+      "verification": "Buyer report only"
+    }
+  ],
+  "beds": 4,
+  "baths": 2.5,
+  "year_built": 2023,
+  "above_grade_sqft": 2680,
+  "below_grade_finished_sqft": 0,
+  "above_grade_sqft_verification": "Inferred because 2,680 marketed and lower level unfinished; verify floor plan",
+  "garage": "Attached 3-car; dimensions unverified",
+  "lot_acres": 0.4,
+  "parcel_id": "SUXV0227078",
+  "shared_land_description": "Village-owned 11-acre Vista Run Park and HOA common amenities nearby; not part of exclusive .40 acres. Additional listing lot code does not establish owned extra acreage.",
+  "municipality": "Village of Sussex, Waukesha County",
+  "schools": "Hamilton: Maple Avenue, Templeton, Hamilton; reconfirm",
+  "utilities": "Municipal water and sewer, natural gas forced air, AC, whole house fan, ERV, solar; sump and radon mitigation reported",
+  "hoa": "Vista Run HOA, $500 annually; recorded restrictions not obtained",
+  "annual_taxes": 8073.82,
+  "tax_year": 2025,
+  "ratings": {
+    "kitchen": 8.7,
+    "lot_privacy": 5.7,
+    "garage_outbuilding": 8.5,
+    "mudroom": 8,
+    "location": 7.3,
+    "garden": 6,
+    "basement_storage": 8.3,
+    "resale": 7.2,
+    "taxes": 6.7,
+    "condition_capex": 8,
+    "pantry": 9
+  },
+  "buyer_fit_score": 7.5,
+  "estimated_value_low": 755000,
+  "estimated_value_high": 795000,
+  "pricing_conclusion": "At user-reported $799,900, roughly fair/slightly rich at upper end of closed-comp-supported value, not a bargain; worthwhile to tour if HOA garden/fencing and owned solar verified",
+  "opening_offer": "$755,000–$765,000",
+  "reasonable_range": "$765,000–$790,000",
+  "caution_price": 800000,
+  "walk_away_price": 810000,
+  "commutes": [
+    {
+      "destination": "Lisa's Work",
+      "baseline_minutes": 31,
+      "candidate_minutes_range": "~30–40 min normal; ~40–55 min weekday rush, not measured",
+      "distance_miles": null,
+      "impact": "similar to potentially materially worse during rush",
+      "provider": "Directional road/geography approximation, no live routing",
+      "traffic_aware": false
+    },
+    {
+      "destination": "Sam's Parents",
+      "baseline_minutes": 35,
+      "candidate_minutes_range": "~17–24 min, not measured",
+      "distance_miles": null,
+      "impact": "materially closer",
+      "provider": "Directional road/geography approximation, no live routing",
+      "traffic_aware": false
+    },
+    {
+      "destination": "Lisa's Mom",
+      "baseline_minutes": 25,
+      "candidate_minutes_range": "~17–24 min, not measured",
+      "distance_miles": null,
+      "impact": "slightly to materially closer",
+      "provider": "Directional road/geography approximation, no live routing",
+      "traffic_aware": false
+    }
+  ],
+  "major_positives": [
+    "Model-home kitchen with island, built-ins and walk-in pantry; verify visually",
+    "Attached 3-car garage and reported rear drop zone",
+    "2023 build, main-floor primary, flex room and unfinished basement storage",
+    "Solar reported included and builder energy guarantee/warranty subject to contracts",
+    "Nearby 11-acre public Vista Run Park and neighborhood amenities, family trips closer"
+  ],
+  "major_concerns": [
+    "Only 0.40-acre exclusive corner lot, adjacent to public greenway and ongoing subdivision activity; not wooded private acreage",
+    "30x40 garden/fence possible but HOA and true siting/sun unverified; 30x40 additional outbuilding should not be assumed legal",
+    "Model-home public use since 2023; warranty dates, wear and ownership of solar equipment unknown",
+    "July 2026 $760k direct comp challenges pricing materially above ~$795k",
+    "Public price feeds still at $839,900 Sept 15, Oct 9 $40k cut buyer-reported only"
+  ],
+  "uncertainties": [
+    "Current live MLS price/status",
+    "Recorded HOA declaration, garden/fence/shed permissions",
+    "Lot survey and setbacks, drainage/easement/park boundaries, wetlands",
+    "Solar contract/ownership and warranty",
+    "Photo pixels and basement condition not directly inspected",
+    "Exact rush-hour routes and mileage not measured",
+    "Specific roof/mechanicals ages and builder guarantee effective dates",
+    "Above/finished below grade area verified floor plan"
+  ],
+  "evaluation_date": "2026-10-09",
+  "evaluation_markdown": "w256n6649-beaver-creek-ln.md"
+}
