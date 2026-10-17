@@ -1,0 +1,99 @@
+{
+  "slug": "211-kummrow-ct",
+  "address": "211 Kummrow Ct, Wales, WI 53183",
+  "listing_url": "https://www.homes.com/property/211-kummrow-ct-wales-wi/ry6qjlzyfgz9f/",
+  "status": "Active",
+  "current_list_price": 799900,
+  "original_list_price": 825000,
+  "list_date": "2026-10-01",
+  "last_price_change_date": null,
+  "beds": 5,
+  "baths": 3.5,
+  "year_built": 2012,
+  "above_grade_sqft": 2177,
+  "below_grade_finished_sqft": 1033,
+  "garage": "3-car attached; electric heater included; dimensions unverified",
+  "lot_acres": 0.74,
+  "parcel_id": "WLSV 1473 040",
+  "shared_land_description": "Undivided interest in Karris Woods Outlots 1 and 3; not included in exclusive 0.74 acres. 2025 roll reports outlots at 0.19 and 1.29 acres in total; rights/obligations and exact boundaries unverified.",
+  "utilities": "Private well and septic per MLS; natural-gas forced-air heat and central AC",
+  "hoa": "Karris Woods; $550/year indicated by listing feeds; confirm current invoice, covenants and common-land obligations",
+  "annual_taxes": 8322.66,
+  "tax_year": 2025,
+  "assessment": 791500,
+  "ratings": {
+    "kitchen": 8.5,
+    "lot_privacy": 8,
+    "garage_outbuilding": 7.5,
+    "mudroom": null,
+    "location": 8,
+    "garden": 5.5,
+    "basement_storage": null,
+    "resale": 8,
+    "taxes": 8,
+    "condition_capex": 6.5,
+    "pantry": 9
+  },
+  "buyer_fit_score": 7.73,
+  "estimated_value_low": 760000,
+  "estimated_value_high": 805000,
+  "pricing_conclusion": "Roughly fair near upper end at reduced $799,900; not a bargain. Provisional value pending systems, land rights and usable-yard verification.",
+  "opening_offer": "$755,000\u2013$765,000, subject to inspection and documents",
+  "reasonable_range": "$770,000\u2013$790,000 if due diligence supports condition and restrictions",
+  "caution_price": 800000,
+  "walk_away_price": 805000,
+  "commutes": [
+    {
+      "destination": "Lisa's Work",
+      "baseline_minutes": 31,
+      "candidate_minutes": null,
+      "candidate_minutes_range": "~32\u201342 min normal; ~42\u201360 min weekday rush",
+      "distance_miles_range": "~24\u201330 mi",
+      "impact": "Likely somewhat worse; rush-hour penalty unmeasured",
+      "provider": "Geographic estimate informed by public city-to-city distances; not exact routing",
+      "traffic_aware": false
+    },
+    {
+      "destination": "Sam's Parents",
+      "baseline_minutes": 35,
+      "candidate_minutes": null,
+      "candidate_minutes_range": "~22\u201330 min",
+      "distance_miles_range": "~12\u201317 mi",
+      "impact": "Likely 5\u201313 min better",
+      "provider": "Geographic estimate informed by public city-to-city distances; not exact routing",
+      "traffic_aware": false
+    },
+    {
+      "destination": "Lisa's Mom",
+      "baseline_minutes": 25,
+      "candidate_minutes": null,
+      "candidate_minutes_range": "~17\u201324 min",
+      "distance_miles_range": "~9\u201313 mi",
+      "impact": "Likely 1\u20138 min better",
+      "provider": "Geographic estimate informed by public city-to-city distances; not exact routing",
+      "traffic_aware": false
+    }
+  ],
+  "major_positives": [
+    "Two kitchen islands, walk-in pantry and excellent large-window connection to yard",
+    "Four main-level bedrooms plus walk-out lower-level bedroom/full bath",
+    "Three-car attached garage, listed sheds and mature cul-de-sac setting",
+    "0.74 exclusive acres plus separate shared-outlot interest; lawn and covered patio"
+  ],
+  "major_concerns": [
+    "30\u00d740 sunny garden and 30\u00d740 outbuilding not verified; slope, septic and restrictions may constrain both",
+    "HOA documents and common-land rights/liabilities not obtained",
+    "Roof/HVAC/water-heater/window/well/septic ages and condition unknown",
+    "Only 2,177 finished square feet above grade; garage entry and unfinished storage unverified"
+  ],
+  "uncertainties": [
+    "Two current feeds show Active $799,900; older feeds still $825,000; exact reduction date unclear",
+    "County parcel geometry, contours, wetland/flood layers and future-development protection not verified",
+    "Comp interiors not directly inspected; no precise dollar adjustments claimed",
+    "Exact routing blocked by automatic approval review; all published commute ranges are geographic estimates, not measured routes",
+    "2025 original tax bill, credits, special charges and fair-market-value field not obtained"
+  ],
+  "evaluation_date": "2026-10-17",
+  "evaluation_markdown": "211-kummrow-ct.md",
+  "score_weight_coverage_percent": 82.0
+}
