@@ -2,11 +2,11 @@
   "slug": "s79w23455-cheri-ave",
   "address": "S79W23455 Cheri Ave, Big Bend, WI 53103",
   "listing_url": "https://www.realtor.com/realestateandhomes-detail/S79W23455-Cheri-Ave_Big-Bend_WI_53103_M92218-92079",
-  "status": "Sold",
-  "current_list_price": null,
-  "original_list_price": 175000,
-  "list_date": "2026-06-20",
-  "mls": "1968384",
+  "status": "Active",
+  "current_list_price": 199900,
+  "original_list_price": 199900,
+  "list_date": "2026-10-17",
+  "mls": "1985256",
   "property_type": "Vacant Land",
   "sale_date": "2026-07-24",
   "last_sale_price": 177000,
@@ -29,9 +29,9 @@
   "buyer_fit_score": null,
   "estimated_value_low": 170000,
   "estimated_value_high": 190000,
-  "pricing_conclusion": "Sold for $177,000 July 24, 2026; reasonable versus adjacent $185,000 sale. Conditional value assumes lawful buildability and ordinary site costs.",
-  "opening_offer": "$165,000–$175,000 hypothetical if reoffered and buildable",
-  "reasonable_range": "$175,000–$185,000 conditional; no verified active offer opportunity",
+  "pricing_conclusion": "Active relisting at $199,900 per buyer evidence: $22,900/12.94% above July purchase and $14,900/8.05% above adjacent sale. Optimistic versus conditional $170,000–$190,000 value; improvements unverified.",
+  "opening_offer": "$165,000–$175,000 provisional with buildability/site due diligence",
+  "reasonable_range": "$175,000–$185,000 conditional on buildability/site costs",
   "caution_price": 190000,
   "walk_away_price": 195000,
   "major_positives": [
@@ -41,7 +41,7 @@
     "Recent exact-property and adjacent sale evidence"
   ],
   "major_concerns": [
-    "Sold; no newer active listing verified",
+    "Relisted $199,900 only ~3 months after $177,000 purchase; no added value documented",
     "150-ft legal-description width vs current A-3 175-ft minimum; lawful lot status must be confirmed",
     "Septic/well, utility costs and environmental constraints unverified",
     "Long narrow parcel and clearing/sunlight tradeoffs for orchard/garden",
@@ -54,7 +54,8 @@
     "Only one woodland photograph inspected; no verified full-lot aerial",
     "Realtor combines neighbor and subject July sales; deeds not obtained",
     "Municipal $123,000 assessment vs some portals $130,500; taxes $1,084–$1,085",
-    "Commutes are broad geographic estimates; exact routing rejected by automatic approval review"
+    "Commutes are broad geographic estimates; exact routing rejected by automatic approval review",
+    "Current listing description/photos and any new improvements/approvals not retrieved; active status/ask/MLS supported by buyer evidence."
   ],
   "evaluation_date": "2026-10-17",
   "evaluation_markdown": "s79w23455-cheri-ave.md",
@@ -92,5 +93,8 @@
       "provider": "Broad geographic estimate using public regional route context; not measured routing",
       "traffic_aware": false
     }
-  ]
+  ],
+  "prior_mls": "1968384",
+  "prior_original_list_price": 175000,
+  "status_source": "Buyer-provided current Realtor screenshot and MetroMLS update timestamp, October 17 2026 10:05 AM CDT; public web retrieval still lagging"
 }
