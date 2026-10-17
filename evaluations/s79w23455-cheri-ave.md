@@ -1,10 +1,10 @@
 # Land evaluation — S79W23455 Cheri Ave, Big Bend, WI 53103
 
-Evaluated October 17, 2026. Buyer-side research; land-only valuation. **Sold, not a verified current purchase opportunity.**
+Evaluated October 17, 2026. Buyer-side research; land-only valuation. **Active relisting at $199,900, MLS 1985256, supported by buyer-provided current Realtor screenshot and listing timestamp (October 17, 2026, 10:05 AM CDT).**
 
 ## 1. Initial read / key facts
 
-The subject's own recent sale is the strongest value evidence: **$177,000 on July 24, 2026**, MLS 1968384. The adjacent **Lt2 Cheri Ave sold for $185,000 on July 16, 2026**, MLS 1968387. Both were marketed at $175,000 as estate-sale vacant land, with the possibility of buying the adjacent parcel. No newer active listing was found. Realtor's history combines both transactions under the subject address; do not interpret that as two resales of this parcel eight days apart.
+The subject's own recent sale is the strongest value evidence: **$177,000 on July 24, 2026**, MLS 1968384. The adjacent **Lt2 Cheri Ave sold for $185,000 on July 16, 2026**, MLS 1968387. Both were marketed at $175,000 as estate-sale vacant land, with the possibility of buying the adjacent parcel. Buyer supplied a current Realtor screenshot showing a new $199,900 listing on October 17, 2026, and identified MetroMLS #1985256, last updated 10:05 AM CDT. This newer evidence supersedes the stale sold-only web snapshot. Realtor's history combines both transactions under the subject address; do not interpret that as two resales of this parcel eight days apart.
 
 | Item | Evidence / conclusion |
 |---|---|
@@ -22,7 +22,7 @@ The subject's own recent sale is the strongest value evidence: **$177,000 on Jul
 | Assessment | Municipal 2025 roll $123,000 land, $0 improvements; some portals show $130,500 without matching tax-year clarity |
 | List history | June 20 vs June 22, 2026 depending on feed; contingent June 26 per Trulia; no verified price reduction |
 
-The supplied URL currently says sold. Some indexed brokerage pages retain stale active text dated June 20. More recent closed feeds and the subject URL outweigh that stale active snapshot. Recorded deeds/transfer returns were not obtained; sale figures are MLS-derived, corroborated across multiple portals, not independently verified deed consideration.
+The web retrieval of the supplied URL still says sold, while the buyer’s current app screenshot shows the October 17 relisting. Treat the current status as Active based on buyer-provided evidence; the current listing description and improvements have not independently been retrieved. Some indexed brokerage pages retain stale active text dated June 20. More recent closed feeds and the subject URL outweigh that stale active snapshot. Recorded deeds/transfer returns were not obtained; sale figures are MLS-derived, corroborated across multiple portals, not independently verified deed consideration.
 
 ## 2. Buyer fit / land-use concept
 
@@ -44,9 +44,9 @@ For the buyer's 30×40 vegetable garden, reserve a sunny area wider than that re
 
 The adjacent sale is **$8,000 (4.5%) above the subject's own sale**, not evidence of a large pricing gap. Subject equates to about $77,600/acre and neighbor about $81,100/acre, but those ratios merely describe the sales; they do not value another acre or establish buildability. The two July transactions are related market context rather than fully independent evidence of broad market depth. Estates can sell at market value; no blanket estate discount or assumption of distress is justified.
 
-**Provisional buyer-side land value: $170,000–$190,000, midpoint about $180,000**, conditional on a lawful residential building site, acceptable septic/well feasibility, ordinary utility costs and no material environmental/title constraints. The subject's $177,000 sale looks reasonable against the adjacent transaction. Do not pay a premium merely because Realtor displays an automated estimate. No material post-sale improvement or newly active ask was found.
+**Provisional buyer-side land value: $170,000–$190,000, midpoint about $180,000**, conditional on a lawful residential building site, acceptable septic/well feasibility, ordinary utility costs and no material environmental/title constraints. The subject's $177,000 sale looks reasonable against the adjacent transaction. Do not pay a premium merely because Realtor displays an automated estimate. The new $199,900 ask is $22,900 (12.94%) above the subject’s July purchase and $14,900 (8.05%) above the adjacent sale. No post-purchase improvements, soil approvals, utility installation or additional development rights have been documented in the material available. Ask the seller what changed. A short resale is not itself proof of a flip or defect.
 
-If later offered again, hypothetical opening **$165,000–$175,000**, supported purchase **$175,000–$185,000**, caution above **$190,000**, approximate walk-away **$195,000** absent documented improvements or materially superior rights. These are conditional negotiating markers, not an offer on an available listing. Failed buildability or major site costs require a different valuation, not a token reduction.
+For the October relisting, provisional opening **$165,000–$175,000**, supported purchase **$175,000–$185,000**, caution above **$190,000**, approximate walk-away **$195,000** absent documented improvements or materially superior rights. These are conditional negotiating markers for the active relisting. At $199,900 the ask is above supported value and above the provisional $195,000 walk-away absent new evidence. Failed buildability or major site costs require a different valuation, not a token reduction.
 
 ## 4. Zoning / outbuilding / environmental review
 
@@ -80,7 +80,7 @@ At an illustrative $180,000 land cost, the buyer's $900,000 total ceiling leaves
 
 ## 7. Documents / unresolved questions
 
-1. Confirm whether owner is willing to sell; obtain any newer MLS number/asking price. Present evidence says sold.
+1. Obtain full current MLS 1985256 sheet, disclosure and any updated soil/survey/utility documents; buyer evidence confirms October 17 relisting at $199,900. Verify current availability with the listing agent before offering.
 2. Obtain recorded July deeds/transfer returns for both parcels; reconcile address/parcel associations and Realtor's merged history.
 3. Obtain current boundary/topographic survey, road dedication, title commitment/Schedule B exceptions, easements, covenants and any lot-status or zoning determinations.
 4. Written Village confirmation of jurisdiction, A-3/overlays, legal buildable lot despite width, setbacks/offsets, building envelope and 30×40 accessory building/fence rules.
@@ -91,7 +91,7 @@ At an illustrative $180,000 land cost, the buyer's $900,000 total ceiling leaves
 
 ## 8. Verdict
 
-**The July price looks sensible, but this is not a currently verified available lot.** If it comes back near $180,000 with written buildability and a workable site plan, it is worth investigating. Strong points are the wooded setting, enough nominal acreage for privacy and outdoor projects, potentially compatible workshop allowance and freeway access. Main reservations are its narrow form, unverified soils/environmental constraints, clearing/sunlight tradeoff, family-drive geography and the cost of delivering the entire dream build. Neighbor's $185,000 sale supports the price neighborhood; it does not remove those risks.
+**Active at $199,900 per buyer-provided current listing evidence; priced optimistically against the subject’s $177,000 July sale and the adjacent $185,000 sale.** Near $180,000 with written buildability and a workable site plan, it is worth investigating. At ask, require documented added value rather than assuming three months of appreciation justify the premium. Strong points are the wooded setting, enough nominal acreage for privacy and outdoor projects, potentially compatible workshop allowance and freeway access. Main reservations are its narrow form, unverified soils/environmental constraints, clearing/sunlight tradeoff, family-drive geography and the cost of delivering the entire dream build. Neighbor's $185,000 sale supports the price neighborhood; it does not remove those risks.
 
 ## Sources / evidence limits
 
@@ -108,3 +108,6 @@ All accessed October 17, 2026 unless source date stated. MLS-derived claims are 
 - [Lt2 Big Bend Rd sold comp](https://lakebreezerealtors.com/sold-listing/detail/1187760613/Lt2-BIG-BEND-ROAD-Waukesha-WI)
 - [Big Bend–Milwaukee route context](https://www.rome2rio.com/s/Big-Bend-WI-USA/Milwaukee)
 - [Hartland route context](https://routeplanner.app/us/routes/hartland-wi)
+
+### October 17 status correction
+The initial evaluation missed a same-day relisting because public web snapshots lagged the buyer’s app. Buyer supplied screenshot: Listed October 17, 2026 at $199,900; buyer supplied source details: MetroMLS #1985256, updated 10:05 AM CDT. This supersedes the initial sold-only conclusion. Historical MLS 1968384 remains relevant only to the July sale. Current-list original price is $199,900; the $175,000 original price belongs to the previous marketing period. Value range remains $170,000–$190,000 pending evidence of improvements/approvals. Current public feed independently accessed still lagged; no new description or photos were assumed.
