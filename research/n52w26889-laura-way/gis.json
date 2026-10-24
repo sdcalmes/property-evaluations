@@ -1,0 +1,62 @@
+{
+  "parcel_id": "LSBT0270034",
+  "parcel_id_field": "TAXKEY",
+  "parcel_layer": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+  "spatial_reference": 6609,
+  "units": "feet",
+  "neighbor_buffer_ft": 800,
+  "layers": {
+    "neighbors": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "scope": "neighbors"
+    },
+    "buildings": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Basemap_Reference_Service/MapServer/10",
+      "scope": "parcel"
+    },
+    "contours": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Contours_2015/MapServer/1",
+      "scope": "parcel"
+    },
+    "index_contours": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Contours_2015/MapServer/2",
+      "scope": "parcel"
+    },
+    "zoning": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/ZoningTown/MapServer/4",
+      "scope": "parcel"
+    },
+    "wetlands_points": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Environmental/MapServer/1",
+      "scope": "parcel"
+    },
+    "wetlands_polygons": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Environmental/MapServer/2",
+      "scope": "parcel"
+    },
+    "environmental_corridor": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Environmental/MapServer/16",
+      "scope": "parcel"
+    },
+    "septic_index": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Environmental/MapServer/13",
+      "scope": "parcel"
+    },
+    "fema": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Floodplains/MapServer/19",
+      "scope": "parcel"
+    },
+    "other_floodplain": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Floodplains/MapServer/7",
+      "scope": "parcel"
+    },
+    "wetland_overlay": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/ZoningTown/MapServer/2",
+      "scope": "parcel"
+    },
+    "survey_index": {
+      "url": "https://gis.waukeshacounty.gov/host/rest/services/Basemap_Reference_Service/MapServer/21",
+      "scope": "parcel"
+    }
+  }
+}

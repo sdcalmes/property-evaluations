@@ -1,0 +1,4 @@
+-r requirements.txt
+Shapely>=2.0,<3
+matplotlib>=3.8,<4
+Pillow>=10,<13

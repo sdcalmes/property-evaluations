@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "profile_name": "Property Evaluations - Buyer Profile",
-  "updated": "2026-08-17",
+  "updated": "2026-10-24",
   "timezone": "America/Chicago",
   "destinations": {
     "lisa_work": {
@@ -40,9 +40,9 @@
     },
     "garage_outbuilding": {
       "priority": "high",
-      "ideal": "3+ car garage",
-      "acceptable": "2+ car garage plus decent-sized garden shed",
-      "notes": "More garage space is better; verify actual dimensions and outbuilding restrictions."
+      "ideal": "Usable 3+ car garage; in a subdivision, an existing or permitted garden shed is preferred",
+      "acceptable": "2+ car garage plus a decent-sized garden shed, subject to actual storage needs",
+      "notes": "Garage capacity is the main storage priority. With a usable 3+ car garage, external storage matters less. Verify stall dimensions, vehicle/workbench/tool storage, and any existing shed or permission for a small resin or wood shed. Do not penalize a subdivision property merely because a 30\u00d740 workshop is unavailable."
     },
     "basement_storage": {
       "priority": "high",
@@ -57,8 +57,12 @@
       "notes": "Favor practical play space and usable outdoor areas."
     },
     "outbuilding_potential": {
-      "priority": "medium_high",
-      "notes": "Check zoning, setbacks, HOA/covenants, wetlands, and buildable envelope."
+      "priority": "conditional_bonus",
+      "deal_breaker": false,
+      "workshop_30x40_required": false,
+      "subdivision_guidance": "Assume a large detached workshop is outside the normal buyer expectation; prioritize 3+ car garage and a garden shed or legal ability to add a small resin/wood shed. Still verify private covenants and municipal rules; subdivision status alone does not prove a prohibition.",
+      "outside_subdivision_or_larger_lot_guidance": "Legal and physical ability to add a larger shed someday is a bonus, not a universal 30\u00d740 requirement. Check zoning, covenants, setbacks, septic/reserve, easements, slope and access.",
+      "scoring_guidance": "Use the combined garage_outbuilding category once; do not impose a separate workshop penalty or double count optional future buildings. Unknown shed permission stays unknown, rather than prohibited."
     },
     "taxes": {
       "priority": "high",
@@ -85,7 +89,17 @@
       "condition_capex": 5,
       "pantry": 3
     },
-    "guidance": "Score is a comparison aid, not a valuation model. Missing categories are renormalized. Final property and offer conclusions remain judgment-based."
+    "guidance": "Score is a comparison aid, not a valuation model. Missing categories are renormalized. Final property and offer conclusions remain judgment-based.",
+    "garage_outbuilding_guidance": {
+      "weight_unchanged": 11,
+      "anchors": {
+        "9-10": "Verified generously usable 3+ car garage with adequate storage; existing suitable garden shed or documented ability to add one strengthens fit.",
+        "7-8": "Usable 3-car garage with shed permission unknown, or 2+ car garage with a suitable shed; actual dimensions and storage usability determine rating.",
+        "5-6": "Limited garage/storage function and no confirmed compensating shed; assess dimensions and buyer use.",
+        "0-4": "Documented material vehicle/tool/garden storage shortfall."
+      },
+      "notes": "Anchors guide evidence-based judgment, not automatic ratings. No workshop penalty for subdivision homes. Keep unknown dimensions/permissions explicit. A 30\u00d740 GARDEN remains high priority."
+    }
   },
   "location_comparison": {
     "material_change_minutes": 5,

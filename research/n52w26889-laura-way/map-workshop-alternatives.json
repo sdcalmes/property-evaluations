@@ -1,0 +1,128 @@
+{
+  "title": "N52W26889 Laura Way | parcel use study",
+  "spatial_reference": 6609,
+  "margin_ft": 90,
+  "contour_layers": {
+    "contours": {
+      "elevation_field": "Elev"
+    },
+    "index_contours": {
+      "elevation_field": "Elev"
+    }
+  },
+  "street_guides": [
+    {
+      "coordinates": [
+        [
+          2427010.5193665475,
+          410870.49973222613
+        ],
+        [
+          2427039.2289953753,
+          410856.4615813829
+        ],
+        [
+          2427066.960608713,
+          410840.5785688143
+        ],
+        [
+          2427093.5958190486,
+          410822.91849981906
+        ],
+        [
+          2427119.0209194655,
+          410803.5567660299
+        ],
+        [
+          2427143.127369061,
+          410782.57602356374
+        ],
+        [
+          2427143.127369061,
+          410782.57602356374
+        ],
+        [
+          2427233.9185260534,
+          410697.91346322
+        ]
+      ],
+      "illustrative_offset_ft": 50
+    },
+    {
+      "coordinates": [
+        [
+          2427233.9185260534,
+          410697.91346322
+        ],
+        [
+          2427228.79648906,
+          410690.4666277319
+        ],
+        [
+          2427218.611926904,
+          410673.6634445097
+        ],
+        [
+          2427209.733547469,
+          410656.1349918877
+        ],
+        [
+          2427202.212682306,
+          410637.98261298303
+        ],
+        [
+          2427196.0928143114,
+          410619.31125822663
+        ]
+      ],
+      "illustrative_offset_ft": 50
+    }
+  ],
+  "study_areas": [
+    {
+      "label": "Optional shop A",
+      "kind": "workshop",
+      "origin": [
+        2426965,
+        410710
+      ],
+      "width_ft": 30,
+      "depth_ft": 40
+    },
+    {
+      "label": "Optional shop B",
+      "kind": "workshop",
+      "origin": [
+        2427100,
+        410680
+      ],
+      "width_ft": 40,
+      "depth_ft": 30
+    }
+  ],
+  "labels": [
+    {
+      "point": [
+        2427050,
+        410920
+      ],
+      "text": "Laura Way | private agricultural land beyond\nNo permanent protection verified"
+    },
+    {
+      "point": [
+        2427000,
+        410765
+      ],
+      "text": "Mapped house + garage"
+    },
+    {
+      "point": [
+        2427140,
+        410665
+      ],
+      "text": "Septic mound and reserve locations UNKNOWN"
+    }
+  ],
+  "source_note": "Preset from county geometry retrieved Oct 24, 2026. Recheck regulations/covenants.\n10 \u00d7 12 shed is an illustrative size, not a buyer minimum or approved location.",
+  "repair_invalid_thematic_geometry": true
+}

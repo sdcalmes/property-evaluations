@@ -20,6 +20,7 @@ def score(record, profile):
     return {"address":record.get("address"),"fit_score_0_to_10":s,
             "weight_coverage_percent":round(used/sum(weights.values())*100,1) if weights else 0,
             "details":details,"flags":flags,"uncertainties":record.get("uncertainties",[]),
+            "garage_storage_guidance":profile["scoring"].get("garage_outbuilding_guidance"),
             "warning":"Buyer-fit score only; do not use to derive market value or offer price."}
 
 if __name__=="__main__":

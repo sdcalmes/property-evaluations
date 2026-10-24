@@ -4,3 +4,4 @@ __pycache__/
 .venv/
 .pytest_cache/
 private/
+# Captured evidence belongs in private/research; never commit listing photo binaries.

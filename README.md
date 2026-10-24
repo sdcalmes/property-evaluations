@@ -70,12 +70,16 @@ python -m property_eval.comps --subject subject.json --comps comps.csv
 python -m property_eval.routing --subject "Property address" --format json
 ```
 
-Scoring uses the unchanged buyer profile weights and renormalizes missing ratings. For optional local routing, copy the Project's full `buyer_profile.json` to `private/buyer_profile.json` (ignored by Git), or pass its path with `--profile`. The routing helper uses public Nominatim/OSRM without traffic by default, or Google Routes with `GOOGLE_MAPS_API_KEY`; it may fail in restricted networks. Its geocode cache is local working data and should be reviewed before committing new entries. Comps are supplied manually as a CSV; the tool only ranks them.
+Scoring uses the buyer profile weights and renormalizes missing ratings. For optional local routing, copy the Project's full `buyer_profile.json` to `private/buyer_profile.json` (ignored by Git), or pass its path with `--profile`. The routing helper uses public Nominatim/OSRM without traffic by default, or Google Routes with `GOOGLE_MAPS_API_KEY`; it may fail in restricted networks. Its geocode cache is local working data and should be reviewed before committing new entries. Comps are supplied manually as a CSV; the tool only ranks them.
 
 ## Deployment
 
 `.github/workflows/pages.yml` tests, builds `_site`, uploads it as a Pages artifact, and deploys on a push to `main` (or a manual workflow run on `main`). `_site` is ignored by Git. Set **Settings → Pages → Build and deployment → Source: GitHub Actions** if GitHub has not selected it. The expected project URL is `https://sdcalmes.github.io/property-evaluations/`. A private repository's Pages availability depends on the GitHub account/plan; the published site itself should be treated as public.
 
-## Still manual in V1
+## Repeatable research and storage priorities
 
-Research, source verification, photos/GIS review, comp selection, value and offer judgment, route estimates, writing the evaluation, and entering/updating its JSON summary. There is no scraper, geospatial integration, automatic migration, server, or database. The Project's connected master Google Sheet may remain the research history; the repo becomes the source for records displayed on this dashboard.
+[Research workflow and commands](docs/research.md) cover resumable ArcGIS capture, browser-response imports when HTTP is blocked, photo discovery/download/validation, numbered photo review sheets, and annotated parcel maps. Install optional dependencies with `python -m pip install -r requirements-research.txt`. Laura Way has reusable configs under `research/n52w26889-laura-way/`. Keep raw captures and photos under ignored `private/research/`; publish reviewed conclusions and maps.
+
+Buyer storage priorities were clarified October 24, 2026: a usable **3+ car garage** is the main priority; external storage matters less with that garage. In subdivisions, ideally combine it with an existing/permitted small resin or wood garden shed. Do **not** require or penalize absence of a 30×40 workshop. Outside subdivisions or on larger lots, a future larger shed is a bonus. The **30×40 garden** remains high priority. Public/private rules still apply to small sheds. See `buyer_profile.json` for scoring guidance; weights remain unchanged.
+
+Research interpretation, photo inspection, comp selection, valuation/offers, production record updates and Master Database row updates remain reviewed work. These helpers capture evidence; they do not auto-score properties, approve construction, or create duplicate records. The connected master Google Sheet retains evaluation history; the repo supplies this dashboard.

@@ -43,9 +43,9 @@
   "score_weight_coverage_percent": 92.0,
   "estimated_value_low": 725000,
   "estimated_value_high": 755000,
-  "pricing_conclusion": "Active $765k is ambitious: no verified premium over $750k Arrowhead sale. Refreshed kitchen and sunroom/main-floor suite are positives, but compact laundry/drop-zone, unverified envelope updates, sloping exposed lot and workshop uncertainties offset them. Buyer-side value $725k–$755k; comp interiors remain unavailable.",
-  "opening_offer": "$725,000–$735,000 absent competing offers; fresh listing limits leverage",
-  "reasonable_range": "$735,000–$750,000 with sound inspections and acceptable restrictions",
+  "pricing_conclusion": "Active $765k is ambitious: no verified premium over $750k Arrowhead sale. Refreshed kitchen and sunroom/main-floor suite are positives, but compact laundry/drop-zone, unverified envelope updates, sloping exposed lot and workshop uncertainties offset them. Buyer-side value $725k\u2013$755k; comp interiors remain unavailable.",
+  "opening_offer": "$725,000\u2013$735,000 absent competing offers; fresh listing limits leverage",
+  "reasonable_range": "$735,000\u2013$750,000 with sound inspections and acceptable restrictions",
   "caution_price": 750000,
   "walk_away_price": 755000,
   "commutes": [
@@ -54,7 +54,7 @@
       "baseline_minutes": 31,
       "candidate_minutes": 25,
       "distance_miles": 22.1,
-      "candidate_minutes_range": "25 min observed Saturday; typically 26–45 min for Monday Oct 26, 7:30 AM",
+      "candidate_minutes_range": "25 min observed Saturday; typically 26\u201345 min for Monday Oct 26, 7:30 AM",
       "impact": "Observed Saturday 6 min better than saved baseline; weekday traffic range overlaps/exceeds baseline",
       "provider": "Google Maps browser routing, Oct 24 2026; I-94 E",
       "traffic_aware": true
@@ -73,7 +73,7 @@
       "baseline_minutes": 25,
       "candidate_minutes": 15,
       "distance_miles": 7.4,
-      "candidate_minutes_range": "14–15 min across displayed alternatives",
+      "candidate_minutes_range": "14\u201315 min across displayed alternatives",
       "impact": "Observed Saturday about 10 min better than saved baseline",
       "provider": "Google Maps browser routing, Oct 24 2026; selected Waukesha K route",
       "traffic_aware": true
@@ -84,15 +84,15 @@
     "Visually refreshed kitchen: white counters, substantial prep runs, peninsula, wall ovens, stainless appliances; sunny breakfast nook and sunroom",
     "3-car attached garage per MLS; main-floor primary suite and laundry",
     "2025 official total bill $5,514.60 includes $468 special charges; 2026 assessment verified at $663,500",
-    "Live routes improve family access: parents 17 min, mom 15 min; work 25 min Saturday / 26–45 min Monday 7:30 AM prediction",
+    "Live routes improve family access: parents 17 min, mom 15 min; work 25 min Saturday / 26\u201345 min Monday 7:30 AM prediction",
     "Septic permit 304739 final inspection May 15 1998; recorded servicing through September 2025; 2025 report records no observed mound discharge/sponginess/ponding and sound tank/baffles"
   ],
   "major_concerns": [
-    "$765k ask exceeds revised $725k–$755k buyer-side value interval; $750k Arrowhead comp claims newer roof/windows/siding, mudroom and full lower bath",
+    "$765k ask exceeds revised $725k\u2013$755k buyer-side value interval; $750k Arrowhead comp claims newer roof/windows/siding, mudroom and full lower bath",
     "Compact laundry has little visible drop-zone room; no proper mudroom confirmed; pantry is MLS claim only",
     "Only three bedrooms and 2,404 above-grade finished sqft; loft is open rather than another enclosed bedroom",
-    "About 372 ft combined mapped street frontage; sloping lot with 1015–1035 ft contour crossings, exposed front/side lawn, limited private level yard",
-    "Workshop not approved: ~1,312 sqft accessory-footprint cap, R-1 setbacks/15-ft height, septic and covenants constrain 30×40; pole-type subdivision construction prohibited",
+    "About 372 ft combined mapped street frontage; sloping lot with 1015\u20131035 ft contour crossings, exposed front/side lawn, limited private level yard",
+    "Small garden shed permission/materials and placement are unverified; measure actual garage usability. Optional large workshop faces setbacks, septic and covenants; it is not a buyer requirement.",
     "Original-era septic permit dates to 1997/1998; current maintenance is reassuring but not a buyer inspection or replacement-life guarantee",
     "Roof/HVAC/water-heater/window/siding replacement dates remain unknown; no premium justified for undocumented capital improvements",
     "Private agricultural parcels west and across Laura Way are not verified permanently protected; VORTAC map label does not establish conservation rights"
@@ -100,7 +100,7 @@
   "uncertainties": [
     "Recorded Addition No. 1 plat/covenants, deed 3814230 and title exceptions not obtained; HOA unknown",
     "No septic as-built/reserve-area plan or well construction/test report; mound location cannot be established from contours or photos",
-    "Garden 30×40 rectangle fits parcel geometry, but sun hours, grade suitability, fence legality and septic-safe location need field verification",
+    "Garden 30\u00d740 rectangle fits parcel geometry, but sun hours, grade suitability, fence legality and septic-safe location need field verification",
     "Thirty-five current subject photos inspected at mixed resolutions; garage interior, unfinished utility/storage and major systems are not shown well enough to inspect",
     "Arrowhead current sold pages on multiple portals expose only one exterior photo despite older 38-photo metadata; kitchen/interior comparison remains MLS-claim based",
     "2026 tax bill/mill rate not available; new assessment is not market value or a proportional tax-rise prediction",
@@ -132,5 +132,16 @@
     "as_built_location": null,
     "reserve_location": null
   },
-  "parcel_map_url": "https://github.com/sdcalmes/property-evaluations/blob/main/evaluations/assets/n52w26889-laura-way-parcel.png"
+  "parcel_map_url": "https://github.com/sdcalmes/property-evaluations/blob/main/evaluations/assets/n52w26889-laura-way-parcel.png",
+  "storage_fit": {
+    "subdivision": true,
+    "garage_spaces_reported": 3,
+    "garage_dimensions_verified": false,
+    "existing_garden_shed": null,
+    "small_shed_permission": null,
+    "larger_shed_potential": null,
+    "large_workshop_required": false,
+    "buyer_guidance": "Prioritize usable 3+ car garage and small garden shed permission. Optional 30\u00d740 shop restrictions are not a subdivision buyer-fit penalty.",
+    "preference_updated": "2026-10-24"
+  }
 }

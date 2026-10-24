@@ -19,7 +19,11 @@ Layout, prep space, pantry/storage, appliance placement/venting, natural light, 
 Direct garage path, separation from living space, coats/shoes/bags, durable flooring/storage, 0–10 fit.
 
 ### Garage / shed / outbuilding
-Actual garage dimensions, shed, future outbuilding potential, zoning/HOA restrictions, 0–10 fit.
+Actual garage dimensions and usable vehicle/workbench/tool storage first; existing shed and legal ability to add a garden shed second. With a 3+ car garage, external storage matters less.
+
+In subdivisions, target a 3+ car garage plus an existing/permitted small resin or wood garden shed. A 30×40 workshop is not required and its absence is not a buyer-fit penalty. Verify restrictions for the proposed shed material/size; do not assume resin or portable sheds are exempt. Outside subdivisions or on larger lots, larger-shed potential is a future bonus. Unknown permissions stay unknown. Use `buyer_profile.json` scoring anchors; do not double count optional workshop potential.
+
+Record confirmed facts separately from assumptions, with optional structured `storage_fit`: subdivision (true/false/null), garage spaces/dimensions, existing shed, small-shed permission (true/false/null), larger-shed potential (true/false/null), sources and outstanding checks.
 
 ### Basement utility/storage
 Finished vs unfinished, mechanical/storage footprint, access, moisture/foundation/sump, 0–10 fit.
