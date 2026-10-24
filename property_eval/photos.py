@@ -80,7 +80,7 @@ def discover(html, base):
     return result
 
 
-def download(manifest, output, import_dir=None, captured_at=None):
+def download(manifest, output, import_dir=None, captured_at=None, refresh=False):
     from PIL import Image
     output = Path(output)
     output.mkdir(parents=True, exist_ok=True)
@@ -106,7 +106,7 @@ def download(manifest, output, import_dir=None, captured_at=None):
                     raise ValueError(f'Expected one browser image named {number:03d}.*; got {len(local_files)}')
                 raw = local_files[0].read_bytes()
                 image_captured_at = captured_at
-            elif prior and (output / prior['file']).exists():
+            elif prior and not refresh and (output / prior['file']).exists():
                 raw = (output / prior['file']).read_bytes()
                 if hashlib.sha256(raw).hexdigest() != prior['sha256']:
                     raise ValueError('Cached photo hash mismatch')
@@ -171,6 +171,7 @@ def main():
     find.add_argument('--out', required=True)
     get = sub.add_parser('download')
     get.add_argument('--manifest', required=True)
+    get.add_argument('--refresh', action='store_true', help='Refetch images instead of reusing validated downloads')
     get.add_argument('--out', required=True)
     get.add_argument('--import-dir', help='Browser image files named 001.*, 002.* matching manifest order')
     get.add_argument('--captured-at', help='Actual ISO UTC timestamp for these browser downloads')
@@ -188,7 +189,7 @@ def main():
             from datetime import datetime
             if not args.captured_at or datetime.fromisoformat(args.captured_at.replace('Z', '+00:00')).tzinfo is None:
                 parser.error('Browser imports require actual timezone-qualified --captured-at')
-        items = download(json.loads(Path(args.manifest).read_text()), args.out, args.import_dir, args.captured_at)
+        items = download(json.loads(Path(args.manifest).read_text()), args.out, args.import_dir, args.captured_at, args.refresh)
         failed = sum(item['status'] != 'ok' for item in items)
         print(f'{len(items) - failed}/{len(items)} downloaded and validated')
         if failed:

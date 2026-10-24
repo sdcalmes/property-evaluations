@@ -76,6 +76,15 @@ Scoring uses the buyer profile weights and renormalizes missing ratings. For opt
 
 `.github/workflows/pages.yml` tests, builds `_site`, uploads it as a Pages artifact, and deploys on a push to `main` (or a manual workflow run on `main`). `_site` is ignored by Git. Set **Settings → Pages → Build and deployment → Source: GitHub Actions** if GitHub has not selected it. The expected project URL is `https://sdcalmes.github.io/property-evaluations/`. A private repository's Pages availability depends on the GitHub account/plan; the published site itself should be treated as public.
 
+## Research runner
+
+```bash
+python -m property_eval.research n52w26889-laura-way
+python -m property_eval.validate --public-sources
+```
+
+[Runner, evidence ledger and validation guide](docs/workflow.md): resume existing-property research, retain source dates/conflicts, and generate an unresolved-items checklist. Defaults run GIS, reviewed photo manifest, map, optional private-profile routing and checks. Missing inputs are reported; the runner does not alter reviewed evaluations or Sheet rows. Routing now compares static times with static baselines and keeps traffic estimates separate.
+
 ## Repeatable research and storage priorities
 
 [Research workflow and commands](docs/research.md) cover resumable ArcGIS capture, browser-response imports when HTTP is blocked, photo discovery/download/validation, numbered photo review sheets, and annotated parcel maps. Install optional dependencies with `python -m pip install -r requirements-research.txt`. Laura Way has reusable configs under `research/n52w26889-laura-way/`. Keep raw captures and photos under ignored `private/research/`; publish reviewed conclusions and maps.

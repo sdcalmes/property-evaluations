@@ -1,5 +1,7 @@
 # Repeatable property research
 
+For the combined command, resumability, evidence ledger and checks, see [the workflow guide](workflow.md).
+
 These helpers capture evidence; they do not decide zoning legality, hidden condition,
 value, or buyer-fit scores. They operate on existing property slugs without writing
 production evaluations or adding database rows automatically.

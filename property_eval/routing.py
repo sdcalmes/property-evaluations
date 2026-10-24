@@ -10,9 +10,9 @@ Default: Nominatim geocoding + OSRM routing (free, no traffic).
 Optional: Google Routes API traffic-aware routing with GOOGLE_MAPS_API_KEY.
 
 Examples:
-  python drive_times.py --subject "S23W26149 Canterbury Ln, Waukesha, WI 53188"
-  python drive_times.py --subject "..." --provider google
-  python drive_times.py --subject "..." --provider google --departure 2026-08-18T07:45:00-05:00
+  python -m property_eval.routing --subject "S23W26149 Canterbury Ln, Waukesha, WI 53188"
+  python -m property_eval.routing --subject "..." --provider google
+  python -m property_eval.routing --subject "..." --provider google --departure 2026-08-18T07:45:00-05:00
 """
 from __future__ import annotations
 import argparse, csv, json, os, sys, time, urllib.parse, urllib.request
@@ -22,7 +22,9 @@ MILES_PER_METER = 0.000621371
 USER_AGENT = "PropertyEvaluationToolkit/1.0 (personal residential research)"
 
 def load_json(path): return json.loads(Path(path).read_text(encoding="utf-8"))
-def save_json(path, data): Path(path).write_text(json.dumps(data, indent=2), encoding="utf-8")
+def save_json(path, data):
+    path=Path(path); path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 def http_json(url, headers=None, body=None, timeout=20):
     payload = None if body is None else json.dumps(body).encode("utf-8")
@@ -89,18 +91,28 @@ def evaluate(subject, profile, provider, cache, departure=None, refresh=False):
     for key,d in profile["destinations"].items():
         baseline=float(d["baseline_no_traffic_minutes"])
         route = route_google(subject,d["routing_address"],departure) if provider=="google" else route_osrm(subject_coords,geocode(d["routing_address"],cache,refresh))
-        duration=float(route["duration_minutes"]); delta=duration-baseline
+        from .research_io import now
+        duration=float(route["duration_minutes"])
+        static=route.get("static_duration_minutes") if route["traffic_aware"] else duration
+        delta=float(static)-baseline if static is not None else None
         rows.append({"destination":d["label"],"baseline_minutes":round(baseline,1),
-                     "candidate_minutes":round(duration,1),"delta_minutes":round(delta,1),
-                     "distance_miles":round(route["distance_miles"],1),"impact":impact(delta,baseline,profile),
-                     "provider":route["provider"],"traffic_aware":route["traffic_aware"]})
+                     "baseline_kind":"saved_no_traffic",
+                     "candidate_minutes":round(duration,1),
+                     "static_candidate_minutes":round(float(static),1) if static is not None else None,
+                     "delta_minutes":round(delta,1) if delta is not None else None,
+                     "comparison_basis":"static_to_static" if static is not None else "unavailable",
+                     "distance_miles":round(route["distance_miles"],1),
+                     "impact":impact(delta,baseline,profile) if delta is not None else "matched comparison unavailable",
+                     "provider":route["provider"],"traffic_aware":route["traffic_aware"],
+                     "departure_time":departure,"observed_at":now(),
+                     "comparison_note":"Traffic-aware candidate time is shown separately; delta uses static time versus saved no-traffic baseline. Baseline is saved, not a freshly rerouted current-home comparison."})
     return rows
 
 def main():
     here=Path(__file__).resolve().parent
     p=argparse.ArgumentParser()
     p.add_argument("--subject",required=True); p.add_argument("--profile",default=str(here.parent/"private/buyer_profile.json"))
-    p.add_argument("--cache",default=str(here.parent/"location_cache.json")); p.add_argument("--provider",choices=["osrm","google"],default="osrm")
+    p.add_argument("--cache",default=str(here.parent/"private/location_cache.json")); p.add_argument("--provider",choices=["osrm","google"],default="osrm")
     p.add_argument("--departure"); p.add_argument("--refresh-geocodes",action="store_true"); p.add_argument("--format",choices=["table","json","csv"],default="table")
     a=p.parse_args()
     if not Path(a.profile).is_file():
@@ -115,5 +127,5 @@ def main():
         print(f"{'Destination':<20} {'Baseline':>9} {'Candidate':>10} {'Change':>8} {'Miles':>7}  Impact")
         for r in rows:
             print(f"{r['destination']:<20} {r['baseline_minutes']:>8.1f}m {r['candidate_minutes']:>9.1f}m "
-                  f"{r['delta_minutes']:>+7.1f}m {r['distance_miles']:>6.1f}  {r['impact']}")
+                  f"{(format(r['delta_minutes'], '+.1f') if r['delta_minutes'] is not None else 'n/a'):>7}m {r['distance_miles']:>6.1f}  {r['impact']}")
 if __name__=="__main__": main()
