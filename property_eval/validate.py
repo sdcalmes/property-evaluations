@@ -23,6 +23,14 @@ def private_content(text, profile):
 
 def check(record, profile, narrative='', evidence=None):
     errors, warnings = [], []
+    stage = record.get('research_status', 'reviewed')
+    if stage not in ('draft', 'reviewed'):
+        errors.append('research_status must be draft or reviewed')
+    if stage == 'draft':
+        warnings.append('Draft research record: excluded from dashboard; do not sync as a completed Sheet evaluation')
+    elif record.get('research_status') == 'reviewed':
+        if not record.get('evaluation_date') or 'Research pending' in narrative or '{{ADDRESS}}' in narrative:
+            errors.append('Reviewed record is still a placeholder or lacks evaluation_date')
     ratings = record.get('ratings', {})
     if not isinstance(ratings, dict):
         return {'slug': record.get('slug'), 'errors': ['ratings must be an object'], 'warnings': []}
@@ -111,7 +119,18 @@ def validate_repo(root=ROOT, slug=None, ledger_path=None, as_of=None):
             narrative = ''
         else:
             narrative = (root / 'evaluations' / name).read_text()
-        evidence = Ledger(ledger_path, path.stem).report(as_of) if ledger_path else None
+        public_path = root / 'data/evidence' / (path.stem + '.json')
+        evidence = None
+        if public_path.is_file():
+            from .evidence_public import validate_summary
+            try:
+                public = validate_summary(public_path, path.stem, profile, as_of)
+                if not ledger_path:
+                    evidence = public.report(as_of)
+            except (ValueError, KeyError, TypeError) as exc:
+                errors.append('Public evidence: ' + str(exc))
+        if ledger_path:
+            evidence = Ledger(ledger_path, path.stem).report(as_of)
         result = check(record, profile, narrative, evidence)
         result['errors'] = errors + result['errors']
         results.append(result)

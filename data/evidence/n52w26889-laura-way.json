@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "slug": "n52w26889-laura-way",
+  "observations": [
+    {
+      "fact": "listing.status",
+      "value": "Active",
+      "source_url": "https://www.coldwellbankerhomes.com/wi/lisbon/n52w26889-laura-way/pid_74389896/",
+      "observed_at": "2026-10-24",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. As verified in the completed Oct. 24 evaluation; recheck before a new recommendation.",
+      "event_date": null,
+      "id": "ef4dca5575f206de3a04b376842b2cc57047892c3aef6f8f291d1c2e6c346b6c"
+    },
+    {
+      "fact": "listing.current_list_price",
+      "value": 765000,
+      "source_url": "https://www.coldwellbankerhomes.com/wi/lisbon/n52w26889-laura-way/pid_74389896/",
+      "observed_at": "2026-10-24",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Oct. 24 asking price, not an independent value estimate.",
+      "event_date": null,
+      "id": "6e19d5c8fabcf8bf3207cc1342bf10be837231edb610fd21660295751a8dae72"
+    },
+    {
+      "fact": "tax.annual_bill",
+      "value": 5514.6,
+      "source_url": "https://tax.waukeshacounty.gov/",
+      "observed_at": "2026-10-24",
+      "basis": "official_record",
+      "kind": "tax",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Official 2025 total includes $468 special charges. 2026 assessment $663,500 is not the 2026 tax bill or market value.",
+      "event_date": null,
+      "id": "c509d7433eaa63f45cc3d1e19beb1a6256fba970f202c4031217f8e2a1f6ac44"
+    },
+    {
+      "fact": "systems.improvements",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-24",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Roof, HVAC, water heater, windows and siding replacement dates not documented; clean photos do not establish age/soundness.",
+      "event_date": null,
+      "id": "2c356bc8eff34a8f3120ca139e920e2b2eb05b52d14c1785b1ed8bf218412ae4"
+    },
+    {
+      "fact": "restrictions.small_shed",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-24",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. No recorded covenants or written small resin/wood shed approval obtained. Large workshop is optional; no subdivision buyer-fit penalty.",
+      "event_date": null,
+      "id": "7d4e7e28a2a2688688cb61e87a97002e6170a73810d51f47b4682f9615198861"
+    },
+    {
+      "fact": "garden.usability",
+      "value": "A 30×40-foot rectangle fits mapped parcel geometry; sun hours, grade, fencing and septic/reserve clearance remain unverified.",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-24",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Geometry study only, not a surveyed or approved garden location.",
+      "event_date": null,
+      "id": "305cffa0302aa7588f8fa2c9e4799ecc0ee05197d090565a97bd19feb950e8db"
+    },
+    {
+      "fact": "parcel.id",
+      "value": "LSBT0270034",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-24",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Official parcel identity verified in the Oct. 24 research.",
+      "event_date": null,
+      "id": "e746447b7502d46ee67208a127c06e9cb7ba5d4e717ae62f1a1cd584b253b39c"
+    },
+    {
+      "fact": "parcel.exclusive_acres",
+      "value": 1.005,
+      "source_url": "https://tax.waukeshacounty.gov/",
+      "observed_at": "2026-10-24",
+      "basis": "official_record",
+      "kind": "tax",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Assessed acreage; GIS attribute and measured polygon differ slightly. Shared acreage is not included.",
+      "event_date": null,
+      "id": "388f7d258cbed4d6056feeb9619519a7f75dd5b2f576484115585e0e53bb9a87"
+    },
+    {
+      "fact": "parcel.zoning",
+      "value": "R-1",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/ZoningTown/MapServer/4",
+      "observed_at": "2026-10-24",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. More than 99.9% mapped intersection; negligible A-3 boundary artifact is not usable A-3 rights. Written legal interpretation remains needed.",
+      "event_date": null,
+      "id": "f4b76334d49a2bf6c023c97c5c0570c61c08d924bc6741e6072910cc8801022f"
+    },
+    {
+      "fact": "risks.development",
+      "value": "Fields across Laura Way and to the west are private parcels; no permanent protection verified.",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-24",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. A VORTAC map label is not proof of conservation or federal ownership; no specific future subdivision approval/yield verified.",
+      "event_date": null,
+      "id": "a61f112edca44ec1cc1dc4119c9eeec814824f92e7afdc74b1a33385df0263f6"
+    },
+    {
+      "fact": "photos.review",
+      "value": "All 35 subject photographs inspected at mixed resolutions in the completed Oct. 24 evaluation. Kitchen visibly refreshed; compact laundry/drop zone; major system ages and hidden condition remain unknown.",
+      "source_url": "https://www.coldwellbankerhomes.com/wi/lisbon/n52w26889-laura-way/pid_74389896/",
+      "observed_at": "2026-10-24",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Historical visual review, not automatic image-download classification or a new inspection.",
+      "event_date": null,
+      "id": "e721384f189c86a11c30b5755ad6e34915d9f82550424134dddbf97f43c407d0"
+    },
+    {
+      "fact": "comps.condition",
+      "value": "Arrowhead Dr sold for $750,000 June 12, 2026. Its description claims capital updates and a mudroom; comparable interiors were not recovered for independent visual comparison.",
+      "source_url": "https://www.coldwellbankerhomes.com/wi/lisbon/n53w26727-arrowhead-dr/pid_70939464/",
+      "observed_at": "2026-10-24",
+      "basis": "listing_claim",
+      "kind": "analysis",
+      "note": "Transcribed from the completed Oct. 24 evaluation; no new source retrieval. Condition claims remain unverified; sold-feed date conflicts are retained in the full evaluation.",
+      "event_date": null,
+      "id": "c2a462f9d570149f8b2e48cea42b59134b92e2affc6e49745cbc2387cae07f70"
+    }
+  ],
+  "public_review": {
+    "reviewed": true,
+    "reviewed_at": "2026-10-24T19:36:00.693249+00:00",
+    "scope": "Selected public findings only; original observation dates retained. No raw captures or private routing inputs."
+  }
+}

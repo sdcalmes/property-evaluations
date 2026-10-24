@@ -117,6 +117,11 @@ def load_records(root: Path):
                 raise ValueError(f"Commutes may only contain destination labels and results: {path}")
         if record["listing_url"] and urlparse(record["listing_url"]).scheme not in ("https", "http"):
             raise ValueError(f"Listing URL must be HTTP(S): {path}")
+        stage = record.get("research_status", "reviewed")
+        if stage not in ("draft", "reviewed"):
+            raise ValueError(f"Invalid research_status: {path}")
+        if stage == "draft":
+            continue
         records.append((record, narrative))
     return records
 

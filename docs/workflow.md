@@ -10,7 +10,7 @@ python -m property_eval.research n52w26889-laura-way
 An exact existing address, parcel ID or saved listing URL also works. A target must
 resolve to exactly one existing record. Unknown/ambiguous targets stop; this command
 never creates a production record, changes a score/value, writes a Sheet row or deploys.
-For a new property, create its reviewed record through the README workflow first.
+For a new property, use `property_eval.initialize` to create a duplicate-checked draft, configure it, and complete the research before marking it reviewed. See docs/bootstrap.md. Drafts are excluded from the dashboard.
 
 ## Configuration and outputs
 
@@ -82,7 +82,7 @@ values, explicit unknowns and missing essential facts. Default review ages are l
 1 day, route 7, photo 30, GIS/permit/document 365, tax 400 and analysis 30 days. These
 are review prompts, not guarantees that data remains accurate until the threshold.
 GIS no-intersection results are raw map evidence, not buildability or wetland approval.
-The runner does not pretend historical reports have a complete machine-readable ledger;
+The runner imports a reviewed data/evidence/<slug>.json summary when available, retaining original dates across sessions. Use property_eval.evidence_public to export explicitly selected, reviewed findings; do not commit raw ledgers. The runner does not pretend historical reports have a complete machine-readable ledger;
 important listing/tax/improvement/shed/garden findings must be logged or stay missing.
 
 ## Validation and publication

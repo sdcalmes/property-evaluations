@@ -57,6 +57,12 @@ def run(root, target, steps=None, refresh=False, offline=False, provider='osrm',
     if old.get('slug') != slug:
         raise ValueError('Run manifest identity mismatch')
     ledger = Ledger(work / 'evidence.json', slug)
+    public_path = root / 'data/evidence' / (slug + '.json')
+    if public_path.is_file():
+        from .evidence_public import validate_summary
+        public = validate_summary(public_path, slug, json.loads((root / 'buyer_profile.json').read_text()))
+        for item in public.data['observations']:
+            ledger.add(item)  # Idempotent; preserve dates, values and conflicts across sessions.
     manifest = {'schema_version': 1, 'slug': slug, 'started_at': now(), 'steps': dict(old['steps']),
                 'manual_review_required': MANUAL_CHECKS}
     selected = steps or ['gis', 'photos', 'map', 'routes', 'checks']

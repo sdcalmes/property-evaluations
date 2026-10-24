@@ -1,5 +1,7 @@
 # Property Evaluations
 
+**Agents: start with [AGENTS.md](AGENTS.md) on current main.** [Fresh-session/new-property setup](docs/bootstrap.md) covers duplicate-safe drafts, reviewed evidence retained between sessions, and the [Master Database update procedure](docs/master-sheet.md).
+
 A small, repo-backed buyer research workflow. ChatGPT Work researches a property and writes two reviewed files: a structured JSON summary and the full Markdown evaluation. Python builds a static dashboard and detail pages; GitHub Actions tests and deploys those pages. Research and valuation remain human analysis, not automatic output from the helpers.
 
 The repository starts without production property records. No past evaluations have been guessed or imported.
