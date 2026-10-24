@@ -85,7 +85,8 @@
     "3-car attached garage; primary bedroom, laundry and full bath on main floor",
     "2,404 above-grade plus 648 finished basement square feet; sunroom, loft and rec room",
     "Same-subdivision $750k June 2026 comparable supports value bracket",
-    "Richmond/Arrowhead schools and likely shorter drives to family destinations"
+    "Richmond/Arrowhead schools and likely shorter drives to family destinations",
+    "Buyer-supplied satellite aerial shows substantial apparently open lawn and some mature landscape screening, although usable garden footprint not surveyed"
   ],
   "major_concerns": [
     "Current ask $765k near upper end of provisional $720k–$770k value range",
@@ -93,7 +94,8 @@
     "Only three bedrooms and 2,404 above-grade finished sqft",
     "Village code limits qualifying detached garage to 1,000 sqft on lot under two acres; recorded-subdivision pole buildings prohibited; 30×40 outbuilding not cleared",
     "Mound septic and corner-street setbacks could constrain garden, fences and outdoor structures",
-    "Unknown age/condition of roof, HVAC, siding, deck, windows, water heater, well and mound; villagewide 2026 revaluation"
+    "Unknown age/condition of roof, HVAC, siding, deck, windows, water heater, well and mound; villagewide 2026 revaluation",
+    "Buyer-supplied satellite screenshot shows significant road exposure on north/east and neighboring house to south; intermittent screening; farm-looking fields across road have unverified development status"
   ],
   "uncertainties": [
     "35-photo current listing album indexed but images not reliably visually inspected",
@@ -102,7 +104,8 @@
     "2026 parcel revaluation notice and official 2025 tax bill/special charges unavailable",
     "Parcel polygon, GIS wetland/flood/contour layers and exact 30×40 garden site not verified",
     "Exact three-destination routes unavailable; estimates not live routing",
-    "Third-party 2022 tax histories conflict; Jan 2013 sale-listing status confusing and no sale verified"
+    "Third-party 2022 tax histories conflict; Jan 2013 sale-listing status confusing and no sale verified",
+    "Buyer-supplied aerial confirms large lawn visually, not parcel boundary or buildable garden/outbuilding footprint; GIS service located, but parameterized REST query and CDN listing photos blocked by current session network"
   ],
   "evaluation_date": "2026-10-24",
   "evaluation_markdown": "n52w26889-laura-way.md"
