@@ -76,6 +76,14 @@ MLS lists **1.01 exclusive acres**, corner lot, parcel **LSBT0270034**, Arrowhea
 
 Sources: [Current Lisbon zoning code](https://www.townoflisbonwi.com/DocumentCenter/View/130/Chapter-11---Zoning-Code---Revised-2025-03-12) PDF pp. 71–75; [Waukesha parcel GIS](https://www.waukeshacounty.gov/parks-and-land-use/land-resources-division/municipal-resources/land-information-systems/). HOA shown blank/$0 on portals **not** verified covenant freedom.
 
+### Buyer-supplied Google Maps aerial — October 24, 2026
+
+**Source type: buyer-supplied screenshot, not GIS/survey.** An overhead satellite image identifies the subject home at a curve/corner with roadway along the north/east side, a lawn wedge between house and roadway, a driveway approaching from the north-west, a neighboring dwelling just south with a band of landscaping between, and open agricultural-looking fields across the road to the north. Mature trees are intermittent rather than forming an enclosing woodland buffer.
+
+**Implications:** The open grass area makes a sunny 30×40-foot garden *visually plausible*, but the image does not establish the parcel boundary, legal setbacks, slope, mound and replacement area, or enough unobstructed sun; the apparent area by the road could be constrained by setbacks. Privacy deserves caution: the house appears highly exposed to street approaches and the south neighboring dwelling, although screening vegetation helps. The farm-looking land beyond the road is not automatically protected from development; determine tax parcels, zoning, easements and subdivision potential. No outbuilding fit can be inferred from apparent grass area alone. Existing buyer-fit ratings (garden 6 and privacy 6.5 provisional) are retained pending geometry, zoning and on-site validation.
+
+**Updated retrieval limitation (October 24):** County hosts an accessible REST **service description** for `Web_Tax_Parcel/MapServer/2` and a reference basemap with parcel/building layers. However, the current session's container has no outbound DNS access and the browser-fetch interface rejected the parameterized `query` calls. Parcel geometry and nearby ownership **have not been obtained**. The public Redfin listing includes 35 direct image URLs, but CDN file retrieval failed; except for the buyer's aerial screenshot, listing interiors have not been directly inspected.
+
 ## 6. Location / drive time, approximations only
 
 Private destination addresses were used for broad geographic judgment and are **not printed or published**. The origin is northeast of Pewaukee, accessed by Lisbon Road/Hwy K and Hwy 164; routes to I-94 and Milwaukee require surface-road travel. **No live turn-by-turn routing returned verified minutes/mileage**, so the following are approximate geography/network estimates, **not measurements**, and should be independently checked for a weekday commute.
