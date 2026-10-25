@@ -1,6 +1,6 @@
 # Property Evaluation — S6W31108 Hidden Holw, Delafield, WI 53018
 
-Evaluated October 25, 2026. **Conditional tour candidate for setting/storage; not recommended near the $850,000 ask on current evidence.** Buyer fit **7.41/10**, covering 90% of scoring weight; location remains unrated. Scores are provisional comparison aids, not a valuation model.
+Evaluated October 25, 2026. **Conditional tour candidate for setting/storage; not recommended near the $850,000 ask on current evidence.** Buyer fit **7.46/10**, covering 100% of scoring weight after the approved route update. Scores are provisional comparison aids, not a valuation model.
 
 ## 1. Initial read / key facts
 
@@ -97,13 +97,17 @@ Garden 30×40 and illustrative shed 10×12 rectangles fit inside mapped boundary
 
 ## 6. Location / drive-time tradeoffs
 
-| Destination | Saved no-traffic baseline | Candidate / change |
-|---|---:|---|
-| Lisa's Work | 31 min | Unverified |
-| Sam's Parents | 35 min | Unverified |
-| Lisa's Mom | 25 min | Unverified |
+Live Nominatim geocoding / OSRM driving routes obtained October 25 after explicit user approval. These are **no-traffic estimates**, compared with the saved no-traffic baselines, not freshly rerouted current-home trips.
 
-Automatic approval review rejected routing over private destination-address disclosure to Nominatim. No replacement routing submission after rejection. Exact/approximate ranges are not fabricated; routes remain a completion blocker. Private addresses/route URLs excluded publicly. Weekday traffic requires separate treatment; location score null.
+| Destination | Saved baseline | Candidate | Change | Distance | Interpretation |
+|---|---:|---:|---:|---:|---|
+| Lisa's Work | 31 min | **35.8 min** | **+4.8 min** | 25.6 mi | Materially worse under buyer threshold (~15% longer) |
+| Sam's Parents | 35 min | **29.1 min** | **−5.9 min** | 13.4 mi | Materially better |
+| Lisa's Mom | 25 min | **17.2 min** | **−7.8 min** | 7.0 mi | Materially better |
+
+This is a favorable family-location tradeoff, with a modestly longer work baseline. Location rated 8/10, reflecting the two shorter family trips; overall fit becomes 7.46/10 with all category weights represented. This changes buyer fit, not market value or the locked blind valuation.
+
+The work suite was omitted because geocoding the full suite-bearing address failed; routing targets the building, not its entrance or a parking space. Private destination inputs and geocoding cache stay ignored. [OSRM provider](https://project-osrm.org/) / [Nominatim provider](https://nominatim.org/). Weekday traffic has **not** been measured: allow for I-94/urban congestion and validate Lisa's actual departure schedule before treating 36 minutes as a normal commute promise. Public output contains labels/results only, with no private addresses or address-bearing route URLs. The earlier approval blocker is resolved by the user's explicit authorization.
 
 ## 7. Taxes / major-cost concerns
 
@@ -119,7 +123,7 @@ Request roof/skylight/HVAC/water-heater/window receipts; inspect well water/pres
 4. Survey/plat, title Schedule B-II, covenants/amendments, HOA dues/outlot rights and written small-shed/garden-fence rules.
 5. Septic as-built/pumping/inspection/reserve, well records and fresh water tests.
 6. Field-measure garage and entry storage; verify 30×40 garden sunlight, grade, water and drainage.
-7. Complete all three routes and weekday traffic once selected-provider private-address transmission is authorized.
+7. Check Lisa’s weekday traffic at her usual departure time; the three approved no-traffic routes are now recorded.
 
 ## 9. Offer strategy / verdict
 
@@ -130,6 +134,6 @@ Request roof/skylight/HVAC/water-heater/window receipts; inspect well water/pres
 | Caution | $790,000 |
 | Walk-away on current evidence | $800,000 |
 
-These are buyer judgment ranges, not predicted acceptance. A 15-day listing may reject a large discount. Preserve inspection, financing/appraisal, well/septic and material document review. Legal-bedroom uncertainty is not automatically a repair allowance. Verified extra usable area, stronger same-style sales or documented major-system replacements could warrant a new valuation; septic, moisture, restrictions or route problems could lower the ceiling or eliminate the property.
+These are buyer judgment ranges, not predicted acceptance. A 15-day listing may reject a large discount. Preserve inspection, financing/appraisal, well/septic and material document review. Legal-bedroom uncertainty is not automatically a repair allowance. Verified extra usable area, stronger same-style sales or documented major-system replacements could warrant a new valuation; septic, moisture, restrictions or traffic problems could lower the ceiling or eliminate the property.
 
-**I like the property more than its price.** Setting, walkout and storage align well; kitchen is workable, but entry and bedroom arrangement compromise family function. At $850,000, condition advantage over local completed sales is not demonstrated. Published findings retain explicit unresolved routes, room/area verification, documents and comp-interior limits; publication is not a claim every research category is complete.
+**I like the property more than its price.** Setting, walkout and storage align well; kitchen is workable, but entry and bedroom arrangement compromise family function. At $850,000, condition advantage over local completed sales is not demonstrated. Published findings retain explicit unresolved weekday traffic, room/area verification, documents and comp-interior limits; publication is not a claim every research category is complete.
