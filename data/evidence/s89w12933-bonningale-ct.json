@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "slug": "s89w12933-bonningale-ct",
+  "observations": [
+    {
+      "fact": "listing.status",
+      "value": "Active",
+      "source_url": "https://www.shorewest.com/WI/Waukesha/Muskego/S89W12933-Bonningale-Ct-Muskego-WI-53150/1985033-METRO",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Current detail page verified Oct 25",
+      "event_date": null,
+      "id": "1eba4fd74950140b9dbfbb2f3af8e77f64ef092b72121e7d416b758b05b01133"
+    },
+    {
+      "fact": "listing.current_list_price",
+      "value": 850000,
+      "source_url": "https://www.shorewest.com/WI/Waukesha/Muskego/S89W12933-Bonningale-Ct-Muskego-WI-53150/1985033-METRO",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Original asking price; active Oct 23",
+      "event_date": null,
+      "id": "b6f6a6abecb14560e34094e9503894d93b7ff15de7df3b12d73222d79ef259dd"
+    },
+    {
+      "fact": "tax.annual_bill",
+      "value": 7311,
+      "source_url": "https://www.shorewest.com/WI/Waukesha/Muskego/S89W12933-Bonningale-Ct-Muskego-WI-53150/1985033-METRO",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "listing_claim",
+      "kind": "tax",
+      "note": "2025 MLS amount corroborated by portals; actual bill not retrieved",
+      "event_date": null,
+      "id": "8ef1857c8045fc071a4e93916d137f9eee812489288eb776f91fb2ab3eb2e1da"
+    },
+    {
+      "fact": "parcel.id",
+      "value": "MSKC2253025",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Unique county parcel query",
+      "event_date": null,
+      "id": "4e81edd4647f04813c0c969bf5e16fdb8c4ad4c02887fe8cfa7f51e3b6db20c1"
+    },
+    {
+      "fact": "parcel.exclusive_acres",
+      "value": 0.62194613,
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Mapped area; listed/assessed acres 0.62",
+      "event_date": null,
+      "id": "f18ba234c07053796acc4b71dc00eb9a3526987bd5067b10d6ce4d113cc78d97"
+    },
+    {
+      "fact": "parcel.zoning",
+      "value": "PD-49 / underlying RS-2 per subdivision ordinance",
+      "source_url": "https://ecode360.com/32210226",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "official_record",
+      "kind": "document",
+      "note": "Parcel-specific map/title and plat exceptions outstanding",
+      "event_date": null,
+      "id": "8fa8ee9649190fae8de145426a9b158868c531fad8deddf2a2d8d710fb245208"
+    },
+    {
+      "fact": "photos.review",
+      "value": {
+        "count": 37,
+        "finding": "All individually inspected. Kitchen functional; broad open yard; neighbor exposure; no garage/unfinished-storage/laundry interiors."
+      },
+      "source_url": "https://www.coldwellbankerhomes.com/wi/muskego/s89w12933-bonningale-ct/pid_74411742/",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "951-pixel gallery downloads; actual CDNs preserved in manifest",
+      "event_date": null,
+      "id": "c3cb5652f5168f1eb2f7e1550226807008dbb000230d56d1e180a05959bdbf7a"
+    },
+    {
+      "fact": "garden.usability",
+      "value": "30x40 appears plausible from open lawn photos; exact legal clear sunny location not established",
+      "source_url": "https://www.shorewest.com/WI/Waukesha/Muskego/S89W12933-Bonningale-Ct-Muskego-WI-53150/1985033-METRO",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "No certified sun hours, boundary or easement-safe placement",
+      "event_date": null,
+      "id": "8798228e3dec0e92686570e28d875a0909566dd1c94eff852fdd326b4c0a339e"
+    },
+    {
+      "fact": "restrictions.small_shed",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "City generally allows one <=120 sqft garden shed with conditions; HOA declaration and specific resin/wood shed permission unknown",
+      "event_date": null,
+      "id": "b06fb56c6d52a146581fe188e483cf178247568ad78b05ae2a66460a9e704b60"
+    },
+    {
+      "fact": "systems.improvements",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "Installation/replacement dates and basement permit unknown",
+      "event_date": null,
+      "id": "cf7ed28836fd04ff3cece35deebd59ad027a86e145a8467e618ee9faa891cf71"
+    },
+    {
+      "fact": "risks.development",
+      "value": "Established subdivision with separate planned stormwater/open-space/park outlots; no subject-specific protected view or direct conservancy adjacency established",
+      "source_url": "https://ecode360.com/32210226",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Do not count shared/outlot acres as exclusive",
+      "event_date": null,
+      "id": "ce86fa58bda2ee8bdc7b940a78639e24301434a9b6e50884417197bcfeac92b4"
+    },
+    {
+      "fact": "comps.condition",
+      "value": "Live sold galleries on multiple sources retained only exterior; alternate galleries returned 404. Interior adjustment confidence limited; MLS claims separately labeled.",
+      "source_url": "https://www.redfin.com/WI/Muskego/S89W13007-Bonningale-Ct-53150/home/144979668",
+      "observed_at": "2026-10-25T18:04:09.528655+00:00",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "No comp interior inspection claimed",
+      "event_date": null,
+      "id": "d9006e4559905ef1489a3216ec7232c8538c725b9ae3589a9d81aea9aee146c1"
+    }
+  ],
+  "public_review": {
+    "reviewed": true,
+    "reviewed_at": "2026-10-25T18:04:09.559452+00:00",
+    "scope": "Selected public findings only; original observation dates retained. No raw captures or private routing inputs."
+  }
+}

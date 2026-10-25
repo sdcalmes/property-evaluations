@@ -1,0 +1,31 @@
+{
+  "title": "S89W12933 Bonningale Ct | parcel and terrain",
+  "spatial_reference": 6609,
+  "margin_ft": 65,
+  "contour_layers": {
+    "contours": {
+      "elevation_field": "Elev"
+    },
+    "index_contours": {
+      "elevation_field": "Elev"
+    }
+  },
+  "study_areas": [],
+  "labels": [
+    {
+      "point": [
+        2484085,
+        327470
+      ],
+      "text": "0.622 mapped acres\nHouse absent in queried building layers\nGarden location NOT verified"
+    },
+    {
+      "point": [
+        2484070,
+        327350
+      ],
+      "text": "Shared subdivision outlots are separate\nNo direct conservancy adjacency established"
+    }
+  ],
+  "source_note": "County GIS captured October 25, 2026. 2015 contours predate the 2016 home.\nNo building-clearance, easement, shed or garden approval is represented."
+}
