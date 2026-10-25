@@ -2,7 +2,7 @@
 
 This repository is the current source for the buyer's dashboard and full evaluation
 workflow. Read this file on every new evaluation, then README.md, buyer_profile.json,
-evaluations/TEMPLATE.md, docs/workflow.md, docs/research.md and docs/master-sheet.md.
+evaluations/TEMPLATE.md, docs/workflow.md, docs/research.md, docs/master-sheet.md and docs/blind-valuation.md.
 Use current main, not an uploaded old toolkit. Read any relevant existing record,
 narrative, research config and reviewed data/evidence/<slug>.json before new research.
 
@@ -29,6 +29,18 @@ Install declared dependencies in a fresh environment: `python -m pip install -r 
    and three routes. Distinguish official records, claims, observations and inference.
    Unknown means null, not No. Keep source conflicts and dates. Do not anchor value to
    asking price, calculate it from buyer fit, or treat geometry fit as legal approval.
+   Before finalizing value, follow docs/blind-valuation.md: curate the allowlisted facts/
+   sold-comp/image packet, use the Work subagent tool with fork_turns="none" (no inherited
+   conversation) and ONLY the generated handoff. This specific valuation delegation is
+   explicitly requested by this repo's workflow. The subagent must not browse/read other
+   files or receive the address/listing/asking price/previous estimates/shortlist opinions.
+   Wait for its JSON, save and lock with the actual subagent ID and fresh-context/packet-
+   only attestations, then compare the ask and publish the reviewed audit. Never send the
+   ask back to that subagent. Report contamination/insufficient evidence/unavailability
+   honestly; do not substitute an inherited-context estimate or claim enforced isolation.
+   Retain the original range; explain any final revision with new evidence. Python cannot
+   spawn the Work agent for you. Legacy records are not retroactively blind, but a new full
+   evaluation of an existing property should use this pass too. Daily screening does not.
 6. Garage first: usable 3+ car garage matters most. In subdivisions, prefer an existing
    or permitted small resin/wood garden shed; do not penalize no 30×40 workshop. Larger
    future shed is a bonus outside subdivisions/on larger lots. A 30×40 GARDEN remains
@@ -59,6 +71,7 @@ another user confirmation. Respect narrower instructions and explicit exclusions
 - `python -m property_eval.initialize --help`: duplicate-safe new drafts.
 - `python -m property_eval.research <slug>`: capture/resume and unresolved checklist.
 - `python -m property_eval.evidence_public --help`: reviewed evidence export.
+- `python -m property_eval.blind_valuation --help`: prepare/handoff, lock, compare and publish.
 - `python -m property_eval.sheet_plan --help`: offline existing-row update preview.
 - Never commit private/, _site/, downloaded listing photos or raw owner mailing data.
 - Daily shortlist: max $900k, no Milwaukee County, no pending/contingent/sold, no repeats

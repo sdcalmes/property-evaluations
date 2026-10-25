@@ -61,11 +61,13 @@ def initialize(root, address, listing_url=None, parcel_id=None, slug=None, maste
     record = {key: None for key in fields}
     record.update(slug=slug, address=address.strip(), listing_url=listing_url, parcel_id=parcel_id,
                   master_database_id=master_database_id, research_status='draft', created_at=now(),
+                  blind_valuation={'method':'work_subagent_packet_only','status':'pending'},
                   ratings={key: None for key in profile['scoring']['weights']}, commutes=[],
                   major_positives=[], major_concerns=[], uncertainties=['Research pending; draft is not an evaluation.'],
                   evaluation_markdown=slug + '.md')
     template = (root / 'evaluations/TEMPLATE.md').read_text().replace('{{ADDRESS}}', address.strip())
     skeletons = {
+        'blind-input.draft.json': {'as_of':None,'subject':{'market_area':None},'comps':[],'images':[]},
         'gis.draft.json': {'parcel_id': parcel_id, 'parcel_id_field': None, 'parcel_layer': None,
                            'spatial_reference': None, 'units': None, 'layers': {}},
         'photos.draft.json': {'listing_url': listing_url, 'discovered_at': None, 'images': [],

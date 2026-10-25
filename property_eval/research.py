@@ -13,7 +13,7 @@ from .validate import validate_repo
 MANUAL_CHECKS = [
     'Verify current listing status and price from a current source; do not infer from cached photos.',
     'Inspect every subject photo and strongest comp interiors; separate listing claims from visual observations.',
-    'Review sold comparables, condition adjustments, value and offers independently.',
+    'Prepare a neutral blind packet, delegate to a fresh no-history valuation subagent, lock its result before comparing the ask; disclose unavailable/contaminated passes.',
     'Verify actual garage dimensions and small garden shed permission; large workshop is optional.',
     'Verify 30×40 garden sun, grade, septic/reserve, fence rules and usable location.',
     'Obtain disclosure, survey/title/covenants, well/septic plans and documented improvement dates.',
@@ -65,11 +65,11 @@ def run(root, target, steps=None, refresh=False, offline=False, provider='osrm',
             ledger.add(item)  # Idempotent; preserve dates, values and conflicts across sessions.
     manifest = {'schema_version': 1, 'slug': slug, 'started_at': now(), 'steps': dict(old['steps']),
                 'manual_review_required': MANUAL_CHECKS}
-    selected = steps or ['gis', 'photos', 'map', 'routes', 'checks']
-    if any(name not in ('gis', 'photos', 'map', 'routes', 'checks') for name in selected):
+    selected = steps or ['gis', 'photos', 'map', 'routes', 'blind', 'checks']
+    if any(name not in ('gis', 'photos', 'map', 'routes', 'blind', 'checks') for name in selected):
         raise ValueError('Unknown research step')
     # Enforce dependency order regardless of command-line ordering.
-    selected = [name for name in ('gis', 'photos', 'map', 'routes', 'checks') if name in selected]
+    selected = [name for name in ('gis', 'photos', 'map', 'routes', 'blind', 'checks') if name in selected]
     current = {}
 
     def step(name, inputs, outputs, action, reason=None, network=False):
@@ -82,7 +82,7 @@ def run(root, target, steps=None, refresh=False, offline=False, provider='osrm',
         previous = old['steps'].get(name, {})
         if reason:
             result = {'status': 'blocked', 'reason': reason}
-        elif name != 'checks' and not refresh and previous.get('status') == 'complete' and previous.get('fingerprint') == fingerprint and all(
+        elif name not in ('checks', 'blind') and not refresh and previous.get('status') == 'complete' and previous.get('fingerprint') == fingerprint and all(
                 p.is_file() and previous.get('output_hashes', {}).get(str(p.relative_to(work))) == digest(p) for p in outputs) and all(
                     (work / name).is_file() and digest(work / name) == expected for name, expected in previous.get('output_hashes', {}).items()):
             result = {**previous, 'reused': True}
@@ -173,6 +173,20 @@ def run(root, target, steps=None, refresh=False, offline=False, provider='osrm',
             return {'provider': provider, 'destinations': len(rows)}
         step('routes', [root / 'data/properties' / (slug + '.json'), private_profile], [work / 'routes.json'], get_routes,
              reason='Private routing profile missing; supply --profile or use private/buyer_profile.json' if not private_profile.is_file() else None, network=True)
+    if 'blind' in selected:
+        def blind_check():
+            from .blind_valuation import check_record
+            errors = check_record(root, record)
+            meta = record.get('blind_valuation', {})
+            if not isinstance(meta, dict):
+                meta = {}
+            state = meta.get('status', 'pending')
+            detail = {'status': 'complete' if state == 'valued' and not errors else 'partial',
+                      'blind_status': state, 'errors': errors,
+                      'next': 'Follow docs/blind-valuation.md. The coordinator must prepare a reviewed packet, spawn a fresh no-history subagent, lock/compare/publish its result. This Python runner cannot spawn Work agents.'}
+            write_json(work / 'blind-check.json', detail)
+            return detail
+        step('blind', [root / 'data/properties' / (slug + '.json')], [work / 'blind-check.json'], blind_check)
     if 'checks' in selected:
         def checks():
             report = ledger.report()
@@ -201,7 +215,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('target', help='Exact existing slug/address/parcel ID/listing URL')
     parser.add_argument('--root', type=Path, default=ROOT)
-    parser.add_argument('--steps', help='Comma-separated subset: gis,photos,map,routes,checks')
+    parser.add_argument('--steps', help='Comma-separated subset: gis,photos,map,routes,blind,checks')
     parser.add_argument('--refresh', action='store_true', help='Refetch selected network steps; overwrite working captures, not production records')
     parser.add_argument('--offline', action='store_true', help='Reuse matching completed captures only; make no network requests')
     parser.add_argument('--provider', choices=['osrm', 'google'], default='osrm')

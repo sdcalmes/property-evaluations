@@ -26,6 +26,15 @@
         <div><dt>Garage / exclusive lot</dt><dd>{{ display(property.garage) }} / {{ display(property.lot_acres, ' acres') }}</dd></div>
         <div><dt>Utilities / HOA / taxes</dt><dd>{{ display(property.utilities) }} / {{ display(property.hoa) }} / {{ money(property.annual_taxes) }}</dd></div>
       </dl>
+      {% if property.blind_valuation is defined %}
+      <h3>Independent valuation pass</h3>
+      {% set blind = property.blind_valuation %}
+      {% if blind.status == 'valued' %}
+      <p><b>Recorded range:</b> {{ money(blind.value_low) }}–{{ money(blind.value_high) }}; midpoint {{ money(blind.value_mid) }}.</p>
+      {% else %}<p><b>Status:</b> {{ blind.status }}. No usable blind estimate is claimed.{% if blind.reason is defined %} {{ blind.reason }}{% endif %}</p>{% endif %}
+      {% if blind.audit_path is defined %}<p><a href="https://github.com/sdcalmes/property-evaluations/blob/main/{{ blind.audit_path }}" rel="noopener noreferrer">Recorded valuation audit ↗</a></p>{% endif %}
+      <p><small>Work subagent, packet-only procedure. Shared tools/files are not access-isolated. Any final revision must be explained in the report.</small></p>
+      {% endif %}
       {% if property.commutes %}<h3>Drive times</h3><ul class="routes">{% for trip in property.commutes %}<li><b>{{ trip.destination }}</b> — {{ trip.candidate_minutes_range if trip.candidate_minutes_range is defined and trip.candidate_minutes_range else display(trip.candidate_minutes, ' min') }}{% if trip.impact %}<span>{{ trip.impact }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
       {% if property.major_positives %}<h3>What stands out</h3><ul>{% for item in property.major_positives %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
       {% if property.major_concerns %}<h3>Concerns</h3><ul>{% for item in property.major_concerns %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}

@@ -1,7 +1,7 @@
 # Research runner, evidence and checks
 
 From the repo root, install `requirements-research.txt`. The research runner combines
-the existing GIS, photo, map, route and validation helpers:
+the existing GIS, photo, map, route, blind-pass checkpoint and validation helpers:
 
 ```bash
 python -m property_eval.research n52w26889-laura-way
@@ -23,6 +23,8 @@ For a new property, use `property_eval.initialize` to create a duplicate-checked
 
 Outputs include `run.json`, `checklist.md`, `evidence.json`, `evidence-report.json`,
 `validation.json`, GIS bundle, image review sheets, annotated map/metrics and route JSON.
+The blind checkpoint follows docs/blind-valuation.md and remains partial until the coordinator has completed a fresh subagent handoff and attached its audit. The Python runner cannot do the delegation. Explicit --steps subsets are partial workflows, not permission to omit blinding from a full evaluation.
+
 The checklist includes the questions that still require documents or human inspection.
 
 ```bash

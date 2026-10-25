@@ -34,6 +34,13 @@ Confirm at least 30×40 ft clear fenceable area, sun, slope/drainage, play space
 ## 3. Best comps and value
 For each comp: address/distance, sale date/price, size/lot/year/garage, condition/setting, why it deserves more or less weight.
 
+### Independent packet-only valuation
+Record method, run ID/audit reference, packet hash, fresh subagent handoff, original
+low/mid/high and confidence before asking-price comparison. Method is procedural Work
+subagent blinding, not enforced tool/filesystem isolation. If contaminated, insufficient
+or unavailable, say so; do not call the final range blind. Preserve the original locked
+range and explain any later revision/new evidence separately. See docs/blind-valuation.md.
+
 Buyer-side value range:
 - Low / mid / high:
 - Pricing verdict:

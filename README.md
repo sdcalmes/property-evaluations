@@ -78,6 +78,16 @@ Scoring uses the buyer profile weights and renormalizes missing ratings. For opt
 
 `.github/workflows/pages.yml` tests, builds `_site`, uploads it as a Pages artifact, and deploys on a push to `main` (or a manual workflow run on `main`). `_site` is ignored by Git. Set **Settings → Pages → Build and deployment → Source: GitHub Actions** if GitHub has not selected it. The expected project URL is `https://sdcalmes.github.io/property-evaluations/`. A private repository's Pages availability depends on the GitHub account/plan; the published site itself should be treated as public.
 
+## Independent valuation stage
+
+Full evaluations now use a [fresh-context Work valuation subagent](docs/blind-valuation.md)
+with a reviewed, asking-price-free packet before final comparison. No separate API key
+is required. The coordinator must perform the actual fresh subagent handoff; Python
+prepares/verifies/locks artifacts but cannot spawn Work agents. Shared files/tools remain
+accessible: this is procedural blinding, not an enforced sandbox. New drafts default to
+pending; historical evaluations are not retroactively relabeled. Daily screening stays
+price-aware and does not perform this valuation stage.
+
 ## Research runner
 
 ```bash

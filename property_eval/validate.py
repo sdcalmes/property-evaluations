@@ -132,7 +132,8 @@ def validate_repo(root=ROOT, slug=None, ledger_path=None, as_of=None):
         if ledger_path:
             evidence = Ledger(ledger_path, path.stem).report(as_of)
         result = check(record, profile, narrative, evidence)
-        result['errors'] = errors + result['errors']
+        from .blind_valuation import check_record
+        result['errors'] = errors + result['errors'] + check_record(root, record)
         results.append(result)
     if slug and not results:
         raise ValueError('Property record not found')
