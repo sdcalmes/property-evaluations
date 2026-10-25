@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "slug": "s6w31108-hidden-holw",
+  "observations": [
+    {
+      "fact": "listing.status",
+      "value": "Active",
+      "source_url": "https://www.coldwellbankerhomes.com/wi/delafield/s6w31108-hidden-hollow/pid_74209495/",
+      "observed_at": "2026-10-25",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Brokerage pages accessed October 25; not an agent confirmation.",
+      "event_date": null,
+      "id": "cc7cad2579576d06144a29999ed293c7c392c2c2e29a104cd081d4d596c2f12b"
+    },
+    {
+      "fact": "listing.current_list_price",
+      "value": 850000,
+      "source_url": "https://www.shorewest.com/WI/Waukesha/Delafield/S6W31108-Hidden-Holw-Delafield-WI-53018/1984358-METRO",
+      "observed_at": "2026-10-25",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Original/current ask unchanged in accessible listing history.",
+      "event_date": null,
+      "id": "e52d378227e23f80b140754347655c0bc33151fa11b999b9c0bfd08c7cd4cfe7"
+    },
+    {
+      "fact": "tax.annual_bill",
+      "value": 6605.99,
+      "source_url": "https://www.alescihomes.com/Property/Detail/MetroMLS/1984358/S6W31108-Hidden-Holw-Delafield-WI-53018",
+      "observed_at": "2026-10-25",
+      "basis": "listing_claim",
+      "kind": "tax",
+      "note": "2025 annual taxes reported by MLS. County 2026 tax fields zero/unpopulated, not a zero bill.",
+      "event_date": null,
+      "id": "8c5693ebe7afa799e80d792229e234e83e54ec32a3822de52725cc5ee5d31023"
+    },
+    {
+      "fact": "systems.improvements",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-25",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "No installation receipts or mechanical ages recovered.",
+      "event_date": null,
+      "id": "1fe018ad37087e0da7423e6e0614d08f62a765ba72a7cc640ede4dfbfdeb8d49"
+    },
+    {
+      "fact": "restrictions.small_shed",
+      "value": null,
+      "source_url": "https://www.townofdelafield.org/Documents/Government/Municipal%20Code/FULL%20CHAPTER%2017%20-%202026.pdf?t=202608241326140",
+      "observed_at": "2026-10-25",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "Town A-3 text allows qualifying accessory buildings; subject covenants, materials and siting permission unverified.",
+      "event_date": null,
+      "id": "7581e6b44fb0e245f2fecba2309fd7f9a453689b27e839073358dcf35ba510e5"
+    },
+    {
+      "fact": "garden.usability",
+      "value": "Geometry accommodates a 30 by 40 ft rectangle in northwest portion; sun, trees, grade, septic/reserve and fence permission unverified.",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-25",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "2015 contours and 52 listing photos reviewed. No legal or sunlight approval.",
+      "event_date": null,
+      "id": "d40da866274ce99dc6ff7b0c10d02b7a77510a576026c6cf75f8f9cbcada7a0e"
+    },
+    {
+      "fact": "parcel.id",
+      "value": "DELT0849025",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-25",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Town of Delafield; address matched.",
+      "event_date": null,
+      "id": "90a5ea72b219c696276a633d43ba6e687f2714910baef07a46222e013f57fbf8"
+    },
+    {
+      "fact": "parcel.exclusive_acres",
+      "value": 1.501,
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-25",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Deeded acres 1.501, assessed 1.5, GISAcres attribute 1.49664482, polygon computation 1.500235. No common acreage added.",
+      "event_date": null,
+      "id": "f4802618e21e9e24794061ebbc98c2e0b343f2b5c2d8a5befe6f2818739f2d45"
+    },
+    {
+      "fact": "parcel.zoning",
+      "value": "A-3",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/ZoningTown/MapServer/4",
+      "observed_at": "2026-10-25",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Entire subject polygon intersects A-3. Town/private parcel exceptions require verification.",
+      "event_date": null,
+      "id": "7ff05013e4702ef879ebb60b796eb07b5d7bc28af644aebe8bbb41268b9f9a45"
+    },
+    {
+      "fact": "risks.development",
+      "value": "Established large-lot residential surroundings; no conservation guarantee or project-specific permit search completed.",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-25",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Neighbor geometry and listing aerials show residential setting, not protected wilderness.",
+      "event_date": null,
+      "id": "3b1e72e1e71bf0949ac3285b6cf13e5c01dd90c317c2a97281a7888b20bd3292"
+    },
+    {
+      "fact": "photos.review",
+      "value": "52 subject images inspected individually, including floor plans. MLS five-bedroom claim conflicts with three labeled bedrooms plus office/gym/rec. Approximate garage 23 ft 1 in by 31 ft 7 in. Unfinished storage photographed.",
+      "source_url": "https://www.coldwellbankerhomes.com/wi/delafield/s6w31108-hidden-hollow/pid_74209495/",
+      "observed_at": "2026-10-25",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "Some marketing photos digitally altered. No garage interior or mechanical labels. Lower room dimensions and finished area conflict.",
+      "event_date": null,
+      "id": "5bd35972fc92aa12c55880ecd647ec6bf57e4d4f310c1e1ee62f2409b3d7dba9"
+    },
+    {
+      "fact": "comps.condition",
+      "value": "Five completed sales researched. No sold-comp interiors successfully inspected: Cbhomes live galleries reduce to exterior, Shorewest HTTP 403, redata security verification and Redfin browser 403.",
+      "source_url": "https://www.coldwellbankerhomes.com/wi/delafield/s1w31448-hickory-hollow-ct/pid_71595359/",
+      "observed_at": "2026-10-25",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Condition adjustments rely on explicitly labeled brokerage descriptions; low valuation confidence.",
+      "event_date": null,
+      "id": "b6d6aa901bb5f48908b3516ad236ce98533193c903ad89c4d2687afa54b136b5"
+    }
+  ],
+  "public_review": {
+    "reviewed": true,
+    "reviewed_at": "2026-10-25T21:34:27.454398+00:00",
+    "scope": "Selected public findings only; original observation dates retained. No raw captures or private routing inputs."
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "slug": "s6w31108-hidden-holw",
+  "record_subject_sha256": "6b0824260fb85fc8708b9127a2a201817c862ab5c8d20d10522215b9458f59b9",
+  "packet": {
+    "schema_version": 1,
+    "run_id": "33a4a57689764e2fb44fafe85567ba91",
+    "method": "work_subagent_packet_only",
+    "as_of": "2026-10-25",
+    "subject": {
+      "market_area": "Town of Delafield, southern Lake Country, Kettle Moraine school district; established large-lot wooded subdivision near Highway 18, local curved residential street",
+      "property_type": "Walkout ranch single-family",
+      "year_built": 1993,
+      "beds": null,
+      "full_baths": 3,
+      "half_baths": 0,
+      "above_grade_sqft": 2100,
+      "below_grade_finished_sqft": 1000,
+      "exclusive_lot_acres": 1.501,
+      "garage_spaces": 3.5,
+      "garage_attached": true,
+      "condition": {
+        "kitchen": "Large eat-in kitchen with white flat-panel cabinets, reddish stone-look counters, tile floors, island electric range, separate built-in microwave and oven; no visible overhead hood. Serviceable older finishes rather than premium remodel.",
+        "baths": "Oak vanities, conventional tub/shower assemblies and primary jetted tub; clean appearing but dated.",
+        "roof": "Asphalt shingles photographed; age and remaining life unknown. Multiple skylights and chimneys.",
+        "hvac": "Forced air and central air reported; manufacture/installation dates unknown.",
+        "windows": "White exterior windows and mixed painted/wood interior trim; replacement history unknown.",
+        "siding": "Horizontal siding with stone front accent; material and maintenance dates unknown.",
+        "basement": "Daylight walkout finished living areas and large unfinished storage/workbench room; no moisture inspection.",
+        "overall": "Maintained looking with mixed cosmetic updates and older kitchens/baths; hidden systems unknown."
+      },
+      "land": "Exclusive residential parcel; mature trees, sizeable lawn, partial fenced area, multilevel wood deck. County polygon roughly 299 by 277 feet bounding extent; historical contours span 19 feet. No mapped wetland/corridor intersection; FEMA X. Garden sun and septic reserve not verified.",
+      "features": [
+        "Two main-level bedrooms plus separate office per floor plan",
+        "Floor plan shows one lower bedroom, gym and recreation room",
+        "Attached garage floor plan approximately 23 feet 1 inch by 31 feet 7 inches, not field measured",
+        "Main-floor laundry with sink and cabinets",
+        "Vaulted living room, two skylights, fireplace; lower fireplace",
+        "Large unfinished lower storage room shown approximately 53 feet by 15 feet"
+      ],
+      "limitations": [
+        "Marketing reports five bedrooms; floor plans label only three total plus office, gym and rec room. Legal bedroom count and lower-room egress unverified. Do not assume five-bedroom premium.",
+        "Published lower finished area does not reconcile with sum of marketed room dimensions. Floor plan approximate and not measurement certificate.",
+        "Association indicated but dues, covenants and shed permissions unknown.",
+        "Well/septic age, capacity, reserve and condition unknown.",
+        "No comparable interior photos recovered; condition claims for comps are unverified brokerage descriptions."
+      ],
+      "prior_sales": [
+        {
+          "sale_date": "2013-08-30",
+          "sale_price": 443500
+        }
+      ]
+    },
+    "comps": [
+      {
+        "comp_id": "C1",
+        "market_area": "Nearby Town of Delafield wooded cul-de-sac, same school-market context",
+        "property_type": "Single-family, architectural form not confirmed",
+        "year_built": 1989,
+        "beds": 4,
+        "full_baths": 3,
+        "half_baths": 1,
+        "above_grade_sqft": null,
+        "below_grade_finished_sqft": null,
+        "exclusive_lot_acres": 3.44,
+        "garage_spaces": 3,
+        "garage_attached": true,
+        "condition": {
+          "overall": "Broker describes maintained home, two fireplaces and three-season room. Interiors not visually inspected; unresolved condition risk."
+        },
+        "features": [
+          "Reported total finished area 4554 square feet; grade split not verified",
+          "Larger wooded parcel"
+        ],
+        "limitations": [
+          "No visual comp-condition verification",
+          "No grade-area split; no mechanical ages"
+        ],
+        "sale_date": "2026-08-07",
+        "sale_price": 775000,
+        "distance_miles": null,
+        "same_subdivision": null
+      },
+      {
+        "comp_id": "C2",
+        "market_area": "Nearby Town of Delafield Carlton Ridge, Kettle Moraine schools",
+        "property_type": "Two-story colonial",
+        "year_built": 1989,
+        "beds": 3,
+        "full_baths": 2,
+        "half_baths": 1,
+        "above_grade_sqft": null,
+        "below_grade_finished_sqft": null,
+        "exclusive_lot_acres": 1.86,
+        "garage_spaces": 5,
+        "garage_attached": null,
+        "condition": {
+          "kitchen": "Broker describes updated well-appointed kitchen; not visually inspected.",
+          "baths": "Broker describes refinished primary ensuite; not visually inspected.",
+          "overall": "Broker describes updated maintained home; visual verification unavailable."
+        },
+        "features": [
+          "Reported total finished area 3721 square feet; grade split not verified",
+          "Attached and detached garage storage; total five spaces reported",
+          "Park-like wooded setting and deck"
+        ],
+        "limitations": [
+          "Do not treat marketing condition as inspected fact",
+          "Different architectural form and larger finished area"
+        ],
+        "sale_date": "2026-07-28",
+        "sale_price": 805000,
+        "distance_miles": null,
+        "same_subdivision": false
+      },
+      {
+        "comp_id": "C3",
+        "market_area": "Nearby Town of Delafield, Kettle Moraine schools",
+        "property_type": "Two-story single-family",
+        "year_built": 1977,
+        "beds": 3,
+        "full_baths": 3,
+        "half_baths": 1,
+        "above_grade_sqft": null,
+        "below_grade_finished_sqft": null,
+        "exclusive_lot_acres": 1.29,
+        "garage_spaces": 3.5,
+        "garage_attached": true,
+        "condition": {
+          "kitchen": "Broker describes renovated kitchen; not visually inspected.",
+          "baths": "Broker describes remodeled primary bath with heated floor; not visually inspected.",
+          "overall": "Updated per brokerage description; no interior visual inspection."
+        },
+        "features": [
+          "Reported total finished area 2800 square feet; grade split unverified",
+          "Inground pool, multiple decks and sunroom"
+        ],
+        "limitations": [
+          "Pool creates different amenity and maintenance profile",
+          "Garage marketing differs between portals, three versus three and one-half"
+        ],
+        "sale_date": "2026-07-30",
+        "sale_price": 805000,
+        "distance_miles": null,
+        "same_subdivision": false
+      },
+      {
+        "comp_id": "C4",
+        "market_area": "Nearby Hickory Hollow area in Town of Delafield",
+        "property_type": "Two-story contemporary",
+        "year_built": 1988,
+        "beds": 3,
+        "full_baths": 2,
+        "half_baths": 1,
+        "above_grade_sqft": 2034,
+        "below_grade_finished_sqft": 0,
+        "exclusive_lot_acres": 1.39,
+        "garage_spaces": 2.5,
+        "garage_attached": true,
+        "condition": {
+          "kitchen": "Broker describes fully remodeled kitchen; not visually inspected.",
+          "overall": "Move-in-ready per broker, not independently verified."
+        },
+        "features": [
+          "No basement per brokerage; two-story layout",
+          "Wooded lot, multilevel deck"
+        ],
+        "limitations": [
+          "Smaller and no basement, lower bracket rather than direct match"
+        ],
+        "sale_date": "2026-09-14",
+        "sale_price": 670000,
+        "distance_miles": null,
+        "same_subdivision": null
+      },
+      {
+        "comp_id": "C5",
+        "market_area": "Same named Town of Delafield subdivision area",
+        "property_type": "Two-story single-family",
+        "year_built": 1989,
+        "beds": 3,
+        "full_baths": 3,
+        "half_baths": 1,
+        "above_grade_sqft": null,
+        "below_grade_finished_sqft": null,
+        "exclusive_lot_acres": 1.4,
+        "garage_spaces": 3.5,
+        "garage_attached": true,
+        "condition": {
+          "kitchen": "Broker describes cherry floors, olive cabinetry and marble backsplash. Not visually inspected.",
+          "overall": "Custom interior details, walkout level, composite deck per brokerage."
+        },
+        "features": [
+          "Reported total finished area 4028 square feet; grade split unknown",
+          "Wooded lot, finished lower entertaining areas"
+        ],
+        "limitations": [
+          "Older transaction, over two years prior to analysis",
+          "Larger home with potentially superior finish; visual verification unavailable"
+        ],
+        "sale_date": "2024-10-11",
+        "sale_price": 900000,
+        "distance_miles": null,
+        "same_subdivision": true
+      }
+    ],
+    "images": [
+      {
+        "image_id": "I01",
+        "property_id": "Subject",
+        "file": "I01.jpg",
+        "sha256": "159a7c503cdd471f903279e9bc8996a2a5b7f52c4138e5d572a15362815c312e",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I02",
+        "property_id": "Subject",
+        "file": "I02.jpg",
+        "sha256": "a3400ef6e9dfaf0d1a78da62f49b7119ba0568ae93bebed39b1a5eb6405aaf32",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I03",
+        "property_id": "Subject",
+        "file": "I03.jpg",
+        "sha256": "412b66582af532a7d9e589ef9007b27006285a376d58feb4a64ac397b8240627",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I04",
+        "property_id": "Subject",
+        "file": "I04.jpg",
+        "sha256": "69bd1b534072943ab2f029d17c39375a69b001f470db45c12dd80fe865a3d2b0",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I05",
+        "property_id": "Subject",
+        "file": "I05.jpg",
+        "sha256": "674a055bdd5535ecd9f2ee5144676ab616a7f9eb0695002f77339cb500412006",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I06",
+        "property_id": "Subject",
+        "file": "I06.jpg",
+        "sha256": "031f997ee1cdce8864176c91a142e6d7a14113cc54d6ac11e54ec4d7f13204d6",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I07",
+        "property_id": "Subject",
+        "file": "I07.jpg",
+        "sha256": "ed0fafae614fd4b26c8afec3a4768404937e6e76ca99a8132e41c7418e567352",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I08",
+        "property_id": "Subject",
+        "file": "I08.jpg",
+        "sha256": "1123d30517f924902b4379e161c6e2370a5dc7d9b9ad94095507694ddb4d36b9",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I09",
+        "property_id": "Subject",
+        "file": "I09.jpg",
+        "sha256": "078add25c89241a549755408a5acac6994907730c6f08f18f56c3b5ce4f96218",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I10",
+        "property_id": "Subject",
+        "file": "I10.jpg",
+        "sha256": "2b2ae7acd89cf2c2de23cd5a600272a91f70d6cf131a23a575735f73233b4a58",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I11",
+        "property_id": "Subject",
+        "file": "I11.jpg",
+        "sha256": "62a9e95fae0185404dfb63235bef65064c49f683f8cbbbd1503890089c228649",
+        "width": 951,
+        "height": 634
+      },
+      {
+        "image_id": "I12",
+        "property_id": "Subject",
+        "file": "I12.jpg",
+        "sha256": "1eb71e3c086e4f686939ec4b83e24ea9ca2df218d3428c8913a5054a9ef8300d",
+        "width": 951,
+        "height": 634
+      }
+    ]
+  },
+  "result": {
+    "run_id": "33a4a57689764e2fb44fafe85567ba91",
+    "packet_sha256": "ca695f4acf5d7a7fcf9aea98e15d7a68402b789e744f6ca2c9b2f42ead7ec949",
+    "status": "valued",
+    "subject_asking_price_exposed": false,
+    "other_exposure": [],
+    "tools_used": [
+      "provided_packet"
+    ],
+    "value_low": 690000,
+    "value_mid": 740000,
+    "value_high": 800000,
+    "confidence": "low",
+    "comp_analysis": [
+      {
+        "comp_id": "C1",
+        "weight": 0.3,
+        "adjusted_value": null,
+        "reasoning": "Recent sale in the same school-market context provides a useful anchor. Its substantially larger reported finished area, much larger parcel and additional half bath indicate a downward adjustment toward the subject. The subject has somewhat greater garage capacity. Unknown grade split and unverified interior condition prevent a reliable dollar adjustment."
+      },
+      {
+        "comp_id": "C2",
+        "weight": 0.25,
+        "adjusted_value": null,
+        "reasoning": "Recent nearby sale with similar vintage and wooded setting. Larger reported finished area, more garage storage and reportedly updated kitchen and primary bath favor this comp and indicate a downward adjustment. The subject's additional full bath and ranch layout partly offset those differences, but their market contributions are unquantified."
+      },
+      {
+        "comp_id": "C3",
+        "weight": 0.2,
+        "adjusted_value": null,
+        "reasoning": "Recent nearby sale has similar bedroom count, full baths and garage capacity. Subject is newer, has a somewhat larger parcel and more reported total finished area. Comp reportedly has renovated kitchen and bath finishes, an additional half bath, sunroom and pool. These differences offset in part; the dated subject finishes support a lower indication, while pool contribution remains uncertain."
+      },
+      {
+        "comp_id": "C4",
+        "weight": 0.2,
+        "adjusted_value": null,
+        "reasoning": "Useful recent lower bracket with similar above-grade area and lot size. Subject's finished walkout lower level, additional full bath and larger garage support an upward adjustment. Comp's reportedly remodeled kitchen offsets part of that advantage. Architectural differences and absence of a basement limit direct comparability."
+      },
+      {
+        "comp_id": "C5",
+        "weight": 0.05,
+        "adjusted_value": null,
+        "reasoning": "Same subdivision and similar lot, garage and walkout features make this geographically relevant. Its substantially larger reported finished area, extra half bath and potentially superior finishes indicate a downward adjustment. The transaction is over two years old, and no supported market-time adjustment is available, so it receives little weight."
+      }
+    ],
+    "rationale": "Four recent completed sales establish a usable local bracket, with the older same-subdivision sale providing limited secondary context. The subject's dated finishes and smaller size or parcel relative to several higher-priced comps support a value below those transactions. Its approximately 2,100 above-grade square feet, finished walkout, three full baths and large attached garage support a value above the smaller no-basement comp. Reconciliation supports a midpoint near $740,000, with a broad range because comparable condition, grade splits, bedroom legality and major-system condition remain unresolved. The 2013 subject sale is too old to update without a supported market trend.",
+    "assumptions": [
+      "Recent comparable sales were arm's-length transactions without material undisclosed concessions.",
+      "Subject has approximately 2,100 above-grade and 1,000 finished below-grade square feet, with below-grade space contributing less per square foot than above-grade space.",
+      "No five-bedroom premium is assumed; the floor plan supports three labeled bedrooms plus other rooms.",
+      "Subject has no material undisclosed structural, moisture, well or septic defects.",
+      "No numerical market-time adjustment is applied because the packet supplies no supported appreciation series."
+    ],
+    "missing_evidence": [
+      "Verified comparable interior condition and above-grade versus below-grade area splits.",
+      "Verified subject finished-area measurements, legal bedroom count and lower-bedroom egress.",
+      "Roof, HVAC, window, well and septic ages and condition.",
+      "Comparable concessions, transaction circumstances and precise proximity.",
+      "Market-supported adjustments for size, condition, lot acreage, ranch layout and pool amenities."
+    ]
+  },
+  "receipt": {
+    "schema_version": 1,
+    "run_id": "33a4a57689764e2fb44fafe85567ba91",
+    "packet_sha256": "ca695f4acf5d7a7fcf9aea98e15d7a68402b789e744f6ca2c9b2f42ead7ec949",
+    "result_sha256": "fc034ba893543760a77484ecc4292561fa81dabe3a70fae7905cc9d1253b41e5",
+    "prepared_at": "2026-10-25T21:32:03.391347+00:00",
+    "locked_at": "2026-10-25T21:33:40.582707+00:00",
+    "agent_id": "/root/valuation_complete_facts",
+    "context_attestation": {
+      "fresh_no_history": true,
+      "packet_only_requested": true
+    },
+    "method": "work_subagent_packet_only",
+    "limitations": "Fresh-context, packet-only instructions and exposure attestations; shared Work tools/files are not access-isolated. Hashes detect changes, not proof of blindness."
+  }
+}

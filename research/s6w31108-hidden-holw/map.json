@@ -1,0 +1,61 @@
+{
+  "title": "S6W31108 Hidden Holw | parcel use study",
+  "spatial_reference": 6609,
+  "margin_ft": 55,
+  "contour_layers": {
+    "contours": {
+      "elevation_field": "Elev"
+    },
+    "index_contours": {
+      "elevation_field": "Elev"
+    }
+  },
+  "street_guides": [],
+  "study_areas": [
+    {
+      "label": "Garden geometry only",
+      "kind": "garden",
+      "origin": [
+        2405275,
+        378235
+      ],
+      "width_ft": 40,
+      "depth_ft": 30
+    },
+    {
+      "label": "Small shed alternative",
+      "kind": "shed",
+      "origin": [
+        2405280,
+        378195
+      ],
+      "width_ft": 10,
+      "depth_ft": 12
+    }
+  ],
+  "labels": [
+    {
+      "point": [
+        2405400,
+        378330
+      ],
+      "text": "North | tree cover and sun require site review"
+    },
+    {
+      "point": [
+        2405425,
+        378090
+      ],
+      "text": "Curved Hidden Holw street frontage"
+    },
+    {
+      "point": [
+        2405270,
+        378140
+      ],
+      "text": "Septic / reserve locations unverified"
+    }
+  ],
+  "source_note": "County GIS captured October 25, 2026; 2015 contours. No legal setback bands assumed.\nRectangles test dimensions only; trees, slope, septic and covenants can prevent use.",
+  "repair_invalid_thematic_geometry": true
+}
