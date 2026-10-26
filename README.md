@@ -6,6 +6,10 @@ A small, repo-backed buyer research workflow. ChatGPT Work researches a property
 
 The repository starts without production property records. No past evaluations have been guessed or imported.
 
+## Standing authorization
+
+Sam has authorized Nominatim/OSRM commute research using the saved private destinations, publication to this repository and GitHub Pages, and updates to the existing Master Database for future full evaluations without repeat confirmation. See the scope and privacy rules in [AGENTS.md](AGENTS.md#standing-user-authorization--october-26-2026). A narrower instruction in a later request takes precedence; platform/tool controls still apply.
+
 ## Add or update a property
 
 1. Research the property using the Project's private buyer profile and `evaluations/TEMPLATE.md`. Check current status, photos, sale comps, land constraints, taxes, and the three commute destinations. Save the narrative at `evaluations/<slug>.md`.

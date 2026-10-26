@@ -12,6 +12,10 @@ resolve to exactly one existing record. Unknown/ambiguous targets stop; this com
 never creates a production record, changes a score/value, writes a Sheet row or deploys.
 For a new property, use `property_eval.initialize` to create a duplicate-checked draft, configure it, and complete the research before marking it reviewed. See docs/bootstrap.md. Drafts are excluded from the dashboard.
 
+## Authorization
+
+The user’s ongoing consent is recorded in [AGENTS.md](../AGENTS.md#standing-user-authorization--october-26-2026): full evaluations include Nominatim geocoding of saved private destinations, OSRM routing with the resulting coordinates, reviewed publication to the existing repo/Pages site, and verified updates to the existing Master Database. Do not request the same consent per property or per chat. Keep private addresses, coordinates and route URLs out of public outputs. Later narrower instructions and platform/tool controls still apply.
+
 ## Configuration and outputs
 
 - Public per-property presets: `research/<slug>/gis.json`, `photos.json`, `map.json`.

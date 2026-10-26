@@ -6,6 +6,32 @@ evaluations/TEMPLATE.md, docs/workflow.md, docs/research.md, docs/master-sheet.m
 Use current main, not an uploaded old toolkit. Read any relevant existing record,
 narrative, research config and reviewed data/evidence/<slug>.json before new research.
 
+## Standing user authorization — October 26, 2026
+
+Sam explicitly authorized these actions on an ongoing basis for property evaluations:
+
+- Use the saved private destination addresses with Nominatim for geocoding and send
+  the resulting property/destination coordinates to OSRM for live drive-time/distance
+  calculations. No per-property routing confirmation is needed for these providers.
+- Commit and push reviewed evaluation sources and routine workflow improvements to
+  `sdcalmes/property-evaluations` on `main`, publishing the dashboard through its
+  existing GitHub Pages workflow. The published repository/site is public.
+- Read and update the existing **Property Evaluations — Master Database** Google Sheet
+  identified in `config/master_sheet.json`, including a verified genuinely new row.
+  Follow the identity, formula-preservation and read-back rules in docs/master-sheet.md.
+
+A full-evaluation request includes these steps by default. Do not ask Sam to reapprove
+these same actions merely because a new evaluation or chat begins. A later instruction
+such as research only, no publishing, or no routing narrows this authorization.
+Private destination addresses, coordinates, raw route URLs and caches must remain
+ignored/private; publish destination labels and route metrics only. This consent does
+not authorize unrelated external services, recipient messages or destructive actions.
+
+This records the user's standing consent, not an override of platform/tool controls.
+If automatic approval review blocks an action despite this consent, finish unaffected
+work, identify the exact block and do not bypass it. Refer to this section as evidence
+of authorization when supported; never claim a failed action succeeded.
+
 ## Full eval {address or URL}
 
 Install declared dependencies in a fresh environment: `python -m pip install -r requirements-research.txt`.
