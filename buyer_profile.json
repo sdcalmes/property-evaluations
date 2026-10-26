@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "profile_name": "Property Evaluations - Buyer Profile",
-  "updated": "2026-10-24",
+  "updated": "2026-10-26",
   "timezone": "America/Chicago",
   "destinations": {
     "lisa_work": {
@@ -42,7 +42,7 @@
       "priority": "high",
       "ideal": "Usable 3+ car garage; in a subdivision, an existing or permitted garden shed is preferred",
       "acceptable": "2+ car garage plus a decent-sized garden shed, subject to actual storage needs",
-      "notes": "Garage capacity is the main storage priority. With a usable 3+ car garage, external storage matters less. Verify stall dimensions, vehicle/workbench/tool storage, and any existing shed or permission for a small resin or wood shed. Do not penalize a subdivision property merely because a 30\u00d740 workshop is unavailable."
+      "notes": "Garage capacity is the main storage priority. With a usable 3+ car garage, external storage matters less. Verify stall dimensions, vehicle/workbench/tool storage, and any existing shed or permission for a small resin or wood shed. Do not penalize a subdivision property merely because a 30×40 workshop is unavailable."
     },
     "basement_storage": {
       "priority": "high",
@@ -61,7 +61,7 @@
       "deal_breaker": false,
       "workshop_30x40_required": false,
       "subdivision_guidance": "Assume a large detached workshop is outside the normal buyer expectation; prioritize 3+ car garage and a garden shed or legal ability to add a small resin/wood shed. Still verify private covenants and municipal rules; subdivision status alone does not prove a prohibition.",
-      "outside_subdivision_or_larger_lot_guidance": "Legal and physical ability to add a larger shed someday is a bonus, not a universal 30\u00d740 requirement. Check zoning, covenants, setbacks, septic/reserve, easements, slope and access.",
+      "outside_subdivision_or_larger_lot_guidance": "Legal and physical ability to add a larger shed someday is a bonus, not a universal 30×40 requirement. Check zoning, covenants, setbacks, septic/reserve, easements, slope and access.",
       "scoring_guidance": "Use the combined garage_outbuilding category once; do not impose a separate workshop penalty or double count optional future buildings. Unknown shed permission stays unknown, rather than prohibited."
     },
     "taxes": {
@@ -71,6 +71,12 @@
     "resale": {
       "priority": "high",
       "notes": "Prefer durable resale traits: useful land, functional layout, garage, setting, tax burden, condition, and access."
+    },
+    "house_size": {
+      "priority": "required",
+      "minimum_total_finished_sqft": 2500,
+      "minimum_above_grade_sqft_when_reported": 2000,
+      "notes": "Daily shortlist: exclude homes below 2,500 total finished living square feet. When an above-/below-grade split is available, require at least 2,000 above-grade finished square feet. If the split is unavailable, a supported total finished area of at least 2,500 may qualify, but explicitly flag above-grade area as unknown. Do not count unfinished basement, garage, outbuilding or potential future finishing toward the minimum, or double-count below-grade space already included in a total. Resolve material area conflicts before recommending. Price, acreage or garage capacity do not override these minimums. Full evaluations requested explicitly by the buyer may still assess a smaller property and should flag the mismatch."
     }
   },
   "scoring": {
@@ -98,7 +104,7 @@
         "5-6": "Limited garage/storage function and no confirmed compensating shed; assess dimensions and buyer use.",
         "0-4": "Documented material vehicle/tool/garden storage shortfall."
       },
-      "notes": "Anchors guide evidence-based judgment, not automatic ratings. No workshop penalty for subdivision homes. Keep unknown dimensions/permissions explicit. A 30\u00d740 GARDEN remains high priority."
+      "notes": "Anchors guide evidence-based judgment, not automatic ratings. No workshop penalty for subdivision homes. Keep unknown dimensions/permissions explicit. A 30×40 GARDEN remains high priority."
     }
   },
   "location_comparison": {
