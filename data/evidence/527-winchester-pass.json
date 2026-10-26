@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "slug": "527-winchester-pass",
+  "observations": [
+    {
+      "fact": "listing.status",
+      "value": "Active",
+      "source_url": "https://www.shorewest.com/WI/Washington/Richfield/527-Winchester-Pass-Richfield-WI-53017/1985880-METRO",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "New MLS1985880 October23 after prior MLS1984179 October9; continuous marketing retained.",
+      "event_date": null,
+      "id": "8d2b2203315e16ed2bf76f6358a9ed0c056b0982ab0f7d09967c06022df844bd"
+    },
+    {
+      "fact": "listing.current_list_price",
+      "value": 640000,
+      "source_url": "https://www.shorewest.com/WI/Washington/Richfield/527-Winchester-Pass-Richfield-WI-53017/1985880-METRO",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Original asking price650000; replacement listing640000.",
+      "event_date": null,
+      "id": "90b84fe63626e438c49a6fc635d5e7b8cc7524fce6fce9c5da2fa3f4cf20fc65"
+    },
+    {
+      "fact": "tax.annual_bill",
+      "value": 4817.75,
+      "source_url": "https://www.shorewest.com/WI/Washington/Richfield/527-Winchester-Pass-Richfield-WI-53017/1985880-METRO",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "listing_claim",
+      "kind": "tax",
+      "note": "2025 bill; 2026 bill unknown following municipal revaluation.",
+      "event_date": null,
+      "id": "b890cb9ae2091519b0fc6016a1c4aa9d97b62fa7eb35f55ce0c611fdd6b0cf23"
+    },
+    {
+      "fact": "parcel.id",
+      "value": "V10_1193087",
+      "source_url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/CurrentParcelSearch/MapServer/0",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Phase IV lot78, doc1154894.",
+      "event_date": null,
+      "id": "c976e77900d5969337933ed890081472f4153eadc61d7fefbd851a7e2e22e7a3"
+    },
+    {
+      "fact": "parcel.exclusive_acres",
+      "value": 1.26,
+      "source_url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/CurrentParcelSearch/MapServer/0",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "Mapped polygon1.25537 acres; reported1.26 rounding consistent.",
+      "event_date": null,
+      "id": "791ada4fdd29b2ee1d0d002925e198237dce3f9327f10e7600eea3da4abd1434"
+    },
+    {
+      "fact": "systems.improvements",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "unknown",
+      "kind": "analysis",
+      "note": "Installation/replacement ages undocumented; basement discoloration requires inspection.",
+      "event_date": null,
+      "id": "5a8013bda13ba8cc94cf1159fe8f43d965261ccefcc1577d206c40435a8b47fd"
+    },
+    {
+      "fact": "restrictions.small_shed",
+      "value": null,
+      "source_url": "https://jbjcompanies.com/wp-content/uploads/2018/10/Winchester-Fields-DR.pdf",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "Base declaration129–180sf rectangular matching custom shed, ACC approval; prefab/kit/vinyl excluded. Phase IV applicability/current amendments not verified.",
+      "event_date": null,
+      "id": "fa7074c164c14254a5d18ff6bda781495e304f14c18493205e596ae32e38e571"
+    },
+    {
+      "fact": "garden.usability",
+      "value": {
+        "physical_30x40_candidate": true,
+        "fence_approval": null,
+        "septic_reserve_location": null
+      },
+      "source_url": "https://jbjcompanies.com/wp-content/uploads/2018/10/Winchester-Fields-DR.pdf",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Map shows geometric candidate, not legal approval. Wire-mesh restriction may impair deer fence; slope/sun require field verification.",
+      "event_date": null,
+      "id": "dc5ccb10e94876e0db978e71810c5bf553249797ea7ed21177a33e1e3e1d2ded"
+    },
+    {
+      "fact": "photos.review",
+      "value": {
+        "subject_images_individually_reviewed": 61,
+        "comp_C1_gallery_images_reviewed": 27
+      },
+      "source_url": "https://www.shorewest.com/WI/Washington/Richfield/527-Winchester-Pass-Richfield-WI-53017/1985880-METRO",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "Dated oak kitchen; tall pantry cabinet; compact three-car garage; unfinished basement with localized block discoloration; no separate shed identified, not proof absent.",
+      "event_date": null,
+      "id": "66682a2c6f47be3377b35d6146b6297b0d0b1e658d1c5d50cb3eb3987673e08a"
+    },
+    {
+      "fact": "comps.condition",
+      "value": {
+        "C1": "Kitchen refresh and detached garage visible in recovered photos",
+        "C2": "Interior photographs unavailable",
+        "C3": "Interior photographs unavailable"
+      },
+      "source_url": "https://www.atproperties.com/1939246/788-black-squirrel-ct-hubertus-wisconsin-53033-swi",
+      "observed_at": "2026-10-25T23:46:00Z",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "Some C1 marketing images virtually staged; key original kitchen/bath/garage/basement photos inspected.",
+      "event_date": null,
+      "id": "80f3d881703189aae7587028f8ce61daa26df48d9a367b0cf9d73c88644ac206"
+    }
+  ],
+  "public_review": {
+    "reviewed": true,
+    "reviewed_at": "2026-10-25T23:53:59.452737+00:00",
+    "scope": "Selected public findings only; original observation dates retained. No raw captures or private routing inputs."
+  }
+}

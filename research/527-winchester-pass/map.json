@@ -1,0 +1,50 @@
+{
+  "title": "527 Winchester Pass | garden and shed study",
+  "spatial_reference": 6609,
+  "margin_ft": 55,
+  "contour_layers": {
+    "contours": {
+      "elevation_field": "Elev"
+    }
+  },
+  "street_guides": [],
+  "study_areas": [
+    {
+      "label": "Garden candidate; fence approval needed",
+      "kind": "garden",
+      "origin": [
+        2429550,
+        445295
+      ],
+      "width_ft": 40,
+      "depth_ft": 30
+    },
+    {
+      "label": "Custom shed candidate; approvals needed",
+      "kind": "shed",
+      "origin": [
+        2429520,
+        445345
+      ],
+      "width_ft": 10,
+      "depth_ft": 14
+    }
+  ],
+  "labels": [
+    {
+      "point": [
+        2429760,
+        445370
+      ],
+      "text": "Winchester Pass (east)"
+    },
+    {
+      "point": [
+        2429600,
+        445500
+      ],
+      "text": "Septic/reserve and easements unverified"
+    }
+  ],
+  "source_note": "County parcel/building/contours captured October 25, 2026. No legal setback bands drawn.\nTree positions/sunlight not surveyed. 10 x 14 custom shed is illustrative; prefab/resin not assumed permitted."
+}

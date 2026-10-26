@@ -1,0 +1,41 @@
+{
+  "parcel_id": "V10_1193087",
+  "parcel_id_field": "TaxKey",
+  "parcel_layer": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/CurrentParcelSearch/MapServer/0",
+  "spatial_reference": 6609,
+  "units": "feet",
+  "neighbor_buffer_ft": 400,
+  "layers": {
+    "neighbors": {
+      "url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/CurrentParcelSearch/MapServer/0",
+      "scope": "neighbors"
+    },
+    "floodplain": {
+      "url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/Shoreland_Zoning/MapServer/3"
+    },
+    "shoreland": {
+      "url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/Shoreland_Zoning/MapServer/14"
+    },
+    "buildings": {
+      "url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/Structure_Footprints/MapServer/0"
+    },
+    "contours": {
+      "url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/Topography/MapServer/2"
+    },
+    "environmental_corridors": {
+      "url": "https://maps.washcowisco.gov/server/rest/services/WashCoGIS/Environmental_Corridors/MapServer/0"
+    },
+    "wetlands": {
+      "url": "https://dnrmaps.wi.gov/arcgis/rest/services/DW_Map_Dynamic/WT_Wisconsin_Wetland_Inventory_NWI_WTM_Ext_Dynamic_L16/MapServer/8"
+    },
+    "wetlands_nwi": {
+      "url": "https://dnrmaps.wi.gov/arcgis/rest/services/DW_Map_Dynamic/WT_Wisconsin_Wetland_Inventory_NWI_WTM_Ext_Dynamic_L16/MapServer/2"
+    },
+    "wetland_points": {
+      "url": "https://dnrmaps.wi.gov/arcgis/rest/services/DW_Map_Dynamic/WT_Wisconsin_Wetland_Inventory_NWI_WTM_Ext_Dynamic_L16/MapServer/5"
+    },
+    "filled_wetlands": {
+      "url": "https://dnrmaps.wi.gov/arcgis/rest/services/DW_Map_Dynamic/WT_Wisconsin_Wetland_Inventory_NWI_WTM_Ext_Dynamic_L16/MapServer/9"
+    }
+  }
+}

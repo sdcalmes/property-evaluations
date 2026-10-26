@@ -1,0 +1,332 @@
+{
+  "schema_version": 1,
+  "slug": "527-winchester-pass",
+  "record_subject_sha256": "e04f98d51d94b16d8ce1f843b97522fb1b3b4e83ff65b89daeb5474c6818305f",
+  "packet": {
+    "schema_version": 1,
+    "run_id": "7c994292ca95420f89c2250a703ee77b",
+    "method": "work_subagent_packet_only",
+    "as_of": "2026-10-25",
+    "subject": {
+      "market_area": "Village of Richfield, Washington County, Wisconsin; Winchester Fields subdivision; local residential street near State Highway 164",
+      "property_type": "Two-story detached single family with main-floor primary suite",
+      "year_built": 2008,
+      "beds": 3,
+      "full_baths": 3,
+      "half_baths": 0,
+      "above_grade_sqft": 2706,
+      "below_grade_finished_sqft": 0,
+      "exclusive_lot_acres": 1.26,
+      "garage_spaces": 3,
+      "garage_attached": true,
+      "condition": {
+        "kitchen": "Original-era honey oak cabinets, laminate-appearing counters, black appliances, compact island, tall pantry cabinet; appears tidy with dated finishes.",
+        "baths": "Original-era oak vanities and fixtures; primary tub and separate shower.",
+        "roof": "Asphalt shingle; age undocumented; complex multi-plane roof.",
+        "hvac": "Natural gas forced air and central AC; ages and operation unverified.",
+        "windows": "Wood-trimmed windows; ages and condition not independently inspected.",
+        "siding": "Reported fiber cement with stone veneer accents.",
+        "basement": "Full unfinished concrete block basement in photos and floor plan, exposed framing, small windows, loose carpet area. Discoloration near one corner requires moisture investigation; cause unknown.",
+        "overall": "Maintained-looking with largely original-era interior; no documented comprehensive renovation."
+      },
+      "land": "Open lawn with mature perimeter trees and visible neighbors; rear yard has garden space candidates; moderate overall grade. Private well/septic locations and easements unverified.",
+      "features": [
+        "Two-story great room with stone fireplace and large windows",
+        "Open loft, separate front living room, main-floor primary suite",
+        "Garage floor plan approximately 21 ft 7 in by 28 ft 2 in; confirm clear depth/width orientation in person",
+        "Compact laundry and entry hall off garage",
+        "Broad curved paved driveway with visible cracking"
+      ],
+      "limitations": [
+        "Only three enclosed bedrooms; loft open to great room",
+        "No finished lower-level living area",
+        "Subdivision declaration reviewed restricts shed size and materials and wire mesh fencing; recorded Phase IV applicability and amendments require title confirmation",
+        "No verified current mechanical replacement history",
+        "Above-grade area is a listing estimate supported by unfinished-basement photographs, not certified measurement"
+      ]
+    },
+    "comps": [
+      {
+        "comp_id": "C1",
+        "market_area": "Same Richfield subdivision; local cul-de-sac about two thirds of a mile away",
+        "property_type": "Two-story colonial",
+        "year_built": 2003,
+        "beds": 4,
+        "full_baths": 2,
+        "half_baths": 1,
+        "above_grade_sqft": 2350,
+        "below_grade_finished_sqft": 0,
+        "exclusive_lot_acres": 1.26,
+        "garage_spaces": 3,
+        "garage_attached": true,
+        "same_subdivision": true,
+        "distance_miles": 0.65,
+        "sale_date": "2026-03-06",
+        "sale_price": 635000,
+        "condition": {
+          "kitchen": "Reviewed photographs show white cabinetry, solid-surface counters, stainless appliances and island; marketing reports recent renovation.",
+          "baths": "Reviewed primary bathroom shows white vanity and shower enclosure; not proof of full plumbing replacement.",
+          "basement": "Reviewed image shows unfinished block basement.",
+          "overall": "Refreshed interiors; some gallery images explicitly virtually staged."
+        },
+        "features": [
+          "Additional detached garage reported as one and a half car, exterior image reviewed",
+          "Composite deck",
+          "Four upstairs bedrooms"
+        ],
+        "limitations": [
+          "Mechanical and roof ages not verified",
+          "Attached spaces reported separately from extra detached building"
+        ]
+      },
+      {
+        "comp_id": "C2",
+        "market_area": "Same Richfield subdivision; local cul-de-sac about seven tenths of a mile away",
+        "property_type": "Two-story colonial",
+        "year_built": 2004,
+        "beds": 4,
+        "full_baths": 2,
+        "half_baths": 2,
+        "above_grade_sqft": 2350,
+        "below_grade_finished_sqft": 1250,
+        "exclusive_lot_acres": 1.26,
+        "garage_spaces": 3,
+        "garage_attached": true,
+        "same_subdivision": true,
+        "distance_miles": 0.71,
+        "sale_date": "2026-04-29",
+        "sale_price": 659000,
+        "condition": {
+          "kitchen": "Listing reports expansive kitchen with island; interior photographs not recovered.",
+          "basement": "Listing reports finished theater, wet bar, exercise and flex rooms.",
+          "overall": "Condition comparison relies on listing statements, not direct interior inspection."
+        },
+        "features": [
+          "Additional detached three-car garage reported, separate from attached garage",
+          "Four upstairs bedrooms"
+        ],
+        "limitations": [
+          "Reported total finished area includes lower level",
+          "Interior photo review unavailable",
+          "Bathroom headline differs across portals; detailed fields show two full and two half baths"
+        ]
+      },
+      {
+        "comp_id": "C3",
+        "market_area": "Nearby Richfield residential property outside same subdivision",
+        "property_type": "Single family with substantial finished lower level",
+        "year_built": 1990,
+        "beds": 4,
+        "full_baths": 3,
+        "half_baths": 0,
+        "above_grade_sqft": 1600,
+        "below_grade_finished_sqft": 1400,
+        "exclusive_lot_acres": 1.7,
+        "garage_spaces": 2.5,
+        "garage_attached": true,
+        "same_subdivision": false,
+        "distance_miles": null,
+        "sale_date": "2026-10-16",
+        "sale_price": 610000,
+        "condition": {
+          "overall": "Full interior photo review unavailable; reported rolling semi-wooded lot and large deck."
+        },
+        "features": [
+          "More acreage and fourth bedroom",
+          "Much less above-grade area than subject"
+        ],
+        "limitations": [
+          "Different layout and older construction",
+          "Interior condition unverified; secondary bracket only"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "image_id": "I01",
+        "property_id": "Subject",
+        "file": "I01.jpg",
+        "sha256": "e830130ed5ac997ca0271376f501d47287730182269fb8045056e9269c85ad73",
+        "width": 2000,
+        "height": 1326
+      },
+      {
+        "image_id": "I02",
+        "property_id": "Subject",
+        "file": "I02.jpg",
+        "sha256": "1c9ded9e22c7cc1db6cff57da1e939816cecef8a05530c927801c1d8cafa3185",
+        "width": 2000,
+        "height": 1326
+      },
+      {
+        "image_id": "I03",
+        "property_id": "Subject",
+        "file": "I03.jpg",
+        "sha256": "98a017290f5b3001eda671b6f4bb5be20cf8c6f730a149600d92582ae6d93e4e",
+        "width": 2000,
+        "height": 1332
+      },
+      {
+        "image_id": "I04",
+        "property_id": "Subject",
+        "file": "I04.jpg",
+        "sha256": "d1c7896a0391d64b3a04c342656555dee7b3feb1c688e7e4082caf6f09bf858b",
+        "width": 2000,
+        "height": 1334
+      },
+      {
+        "image_id": "I05",
+        "property_id": "Subject",
+        "file": "I05.jpg",
+        "sha256": "e862bdb054019a93a03845aa96623a219d4e01609f445ea993371baa6884f82e",
+        "width": 2000,
+        "height": 1329
+      },
+      {
+        "image_id": "I06",
+        "property_id": "Subject",
+        "file": "I06.jpg",
+        "sha256": "56189ee47fd5e9b513f9ae919679d54a09273d1f656e713960a74574e4920c85",
+        "width": 2000,
+        "height": 1326
+      },
+      {
+        "image_id": "I07",
+        "property_id": "Subject",
+        "file": "I07.jpg",
+        "sha256": "fe1969a756fdd3a11eeccf389243e84de9e9fdc30350ea49d2d1a7edb268e0ce",
+        "width": 2000,
+        "height": 1326
+      },
+      {
+        "image_id": "I08",
+        "property_id": "Subject",
+        "file": "I08.jpg",
+        "sha256": "dcfdc81ba619d1d4676e5a5ecf4aaff1a401ca4d8c2d3119c85ebabe75b44950",
+        "width": 2000,
+        "height": 1327
+      },
+      {
+        "image_id": "I09",
+        "property_id": "Subject",
+        "file": "I09.jpg",
+        "sha256": "e6afc919c59ed1f4091b74002700cbff51005bd98a90754ca5c30e0c4a4eff84",
+        "width": 2000,
+        "height": 1378
+      },
+      {
+        "image_id": "I10",
+        "property_id": "Subject",
+        "file": "I10.jpg",
+        "sha256": "cf1610ba9a68641bc1a056a3ef92cf827347e6af03bf54a251723f1e8784d13c",
+        "width": 2000,
+        "height": 1253
+      },
+      {
+        "image_id": "I11",
+        "property_id": "Subject",
+        "file": "I11.jpg",
+        "sha256": "7efe6e24e4d6489b9dae70dfb1326cfcec1dcd40332b710b8ef91867ee592d9c",
+        "width": 2000,
+        "height": 1496
+      },
+      {
+        "image_id": "I12",
+        "property_id": "C1",
+        "file": "I12.jpg",
+        "sha256": "53c39d4742751c74ee6e9061600ce6040e01ab92a06c7646608ce565d599c869",
+        "width": 1023,
+        "height": 682
+      },
+      {
+        "image_id": "I13",
+        "property_id": "C1",
+        "file": "I13.jpg",
+        "sha256": "4b6fe9bfb7bb124412921a2c1e3e68ed1a978d9dbc18bc027dc3668b096c44c4",
+        "width": 1023,
+        "height": 682
+      },
+      {
+        "image_id": "I14",
+        "property_id": "C1",
+        "file": "I14.jpg",
+        "sha256": "2abbbf591947d304442cbd744650f17674f57f701262714e65d6d23b8850a1ca",
+        "width": 1023,
+        "height": 682
+      },
+      {
+        "image_id": "I15",
+        "property_id": "C1",
+        "file": "I15.jpg",
+        "sha256": "e65d8ea49cc7d76eed4e449b7688d891387645477b998f21af69dfba599c49c3",
+        "width": 1023,
+        "height": 682
+      }
+    ]
+  },
+  "result": {
+    "run_id": "7c994292ca95420f89c2250a703ee77b",
+    "packet_sha256": "f0d7223e6e2b43b590bf38c8cb3aa902baa3d271a445bae6e268589b1f58783a",
+    "status": "valued",
+    "subject_asking_price_exposed": false,
+    "other_exposure": [],
+    "tools_used": [
+      "provided_packet"
+    ],
+    "value_low": 590000,
+    "value_mid": 615000,
+    "value_high": 640000,
+    "confidence": "low",
+    "comp_analysis": [
+      {
+        "comp_id": "C1",
+        "weight": 0.55,
+        "adjusted_value": null,
+        "reasoning": "Strongest comparison: same subdivision, equal lot acreage, three attached garage spaces and unfinished basement. The subject's additional 356 above-grade square feet, newer construction and additional full bathroom support upward adjustments. Its dated kitchen and bathrooms, one fewer enclosed bedroom and absence of the comp's detached garage support downward adjustments. The comp's cul-de-sac setting may also be superior, although actual traffic differences are unverified. Overall, the subject likely falls modestly below this sale, with no supported paired-sales rates for precise dollar adjustments."
+      },
+      {
+        "comp_id": "C2",
+        "weight": 0.3,
+        "adjusted_value": null,
+        "reasoning": "Same subdivision, equal lot acreage and comparable construction era make this relevant. The subject has 356 more above-grade square feet and a main-floor primary suite. However, the comp's fourth bedroom, substantial finished basement and additional detached three-car garage collectively support a meaningful downward adjustment from its sale price. Interior condition cannot be reliably compared, limiting weight and preventing a precise adjusted value."
+      },
+      {
+        "comp_id": "C3",
+        "weight": 0.15,
+        "adjusted_value": null,
+        "reasoning": "Recent sale provides a secondary local bracket. The subject is newer, has substantially more above-grade area and slightly greater attached garage capacity, supporting upward adjustments. The comp's larger lot, fourth bedroom and substantial finished lower level support downward adjustments. Different layout, subdivision and unverified interior condition make the net adjustment uncertain."
+      }
+    ],
+    "rationale": "Two same-subdivision completed sales provide sufficient evidence for a broad preliminary market range. Both have material features absent from the subject, while the subject has more above-grade space and newer construction. The recent third sale supports the general price bracket but is less directly comparable. Reconciliation favors approximately $615,000, below the two same-subdivision sales. The range reflects uncertain condition, unverified mechanical history, incomplete comp interiors and the absence of supported adjustment rates or market-trend evidence.",
+    "assumptions": [
+      "Reported sale prices represent completed arm's-length transactions without material undisclosed concessions.",
+      "Reported property areas, lot sizes and garage counts are substantially accurate.",
+      "The basement discoloration does not indicate a material unresolved water or structural defect; a confirmed defect could reduce value below this range.",
+      "No material title, septic, well, roof or mechanical defect exists beyond the disclosed uncertainties.",
+      "No quantified time adjustment is applied because the packet contains no reliable local market-trend evidence."
+    ],
+    "missing_evidence": [
+      "Verified sale concessions and transaction terms.",
+      "Interior photographs and condition verification for C2 and C3.",
+      "Inspection of basement discoloration, roof, HVAC, windows, well and septic.",
+      "Measured above-grade area and confirmation of usable garage dimensions.",
+      "Additional recent similar sales and paired-sales evidence for renovation, bedroom, finished-basement and detached-garage contributions.",
+      "Local price-trend evidence between the comparable sale dates and the valuation date."
+    ]
+  },
+  "receipt": {
+    "schema_version": 1,
+    "run_id": "7c994292ca95420f89c2250a703ee77b",
+    "packet_sha256": "f0d7223e6e2b43b590bf38c8cb3aa902baa3d271a445bae6e268589b1f58783a",
+    "result_sha256": "3ed8a75eb914efcaa309d921a0b66dc5e78e83a6624fcd2997918f0c0da7a5a5",
+    "prepared_at": "2026-10-25T23:46:06.237046+00:00",
+    "locked_at": "2026-10-25T23:50:48.195149+00:00",
+    "agent_id": "/root/independent_valuation",
+    "context_attestation": {
+      "fresh_no_history": true,
+      "packet_only_requested": true
+    },
+    "method": "work_subagent_packet_only",
+    "limitations": "Fresh-context, packet-only instructions and exposure attestations; shared Work tools/files are not access-isolated. Hashes detect changes, not proof of blindness."
+  }
+}
