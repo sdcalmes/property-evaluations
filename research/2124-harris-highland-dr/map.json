@@ -1,0 +1,53 @@
+{
+  "title": "2124 Harris-Highland Dr | parcel and garden study",
+  "spatial_reference": 6609,
+  "margin_ft": 35,
+  "contour_layers": {
+    "contours": {
+      "elevation_field": "Elev"
+    },
+    "index_contours": {
+      "elevation_field": "Elev"
+    }
+  },
+  "street_guides": [],
+  "study_areas": [
+    {
+      "label": "30 x 40 garden: geometry only",
+      "kind": "garden",
+      "origin": [
+        2433210,
+        370800
+      ],
+      "width_ft": 40,
+      "depth_ft": 30
+    },
+    {
+      "label": "10 x 12 shed: geometry only",
+      "kind": "shed",
+      "origin": [
+        2433260,
+        370850
+      ],
+      "width_ft": 10,
+      "depth_ft": 12
+    }
+  ],
+  "labels": [
+    {
+      "point": [
+        2433210,
+        370660
+      ],
+      "text": "Harris-Highland Dr | curved southern frontage"
+    },
+    {
+      "point": [
+        2433270,
+        370920
+      ],
+      "text": "Rear boundary | trees and rights unverified"
+    }
+  ],
+  "source_note": "County GIS captured Oct 27, 2026; historical 2015 contours. Listing 0.68 ac vs GIS 0.537 ac.\nDimensions test polygon fit only. Slopes, trees, sun, easements and city/private rules require verification."
+}

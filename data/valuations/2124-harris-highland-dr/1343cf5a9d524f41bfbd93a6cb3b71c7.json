@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "slug": "2124-harris-highland-dr",
+  "record_subject_sha256": "90cf6d0358dc894e3882eb8fae85955db6d75f22ca29e976b19e82abb348b566",
+  "packet": {
+    "schema_version": 1,
+    "run_id": "1343cf5a9d524f41bfbd93a6cb3b71c7",
+    "method": "work_subagent_packet_only",
+    "as_of": "2026-10-27",
+    "subject": {
+      "market_area": "City of Waukesha, western established residential area near South Grandview Boulevard; quiet local residential street",
+      "property_type": "Two-story colonial with exposed lower level and built-under garage",
+      "year_built": 1978,
+      "beds": 4,
+      "full_baths": 3,
+      "half_baths": 1,
+      "above_grade_sqft": 2618,
+      "below_grade_finished_sqft": 532,
+      "exclusive_lot_acres": null,
+      "garage_spaces": 2.5,
+      "garage_attached": true,
+      "condition": {
+        "kitchen": "White cabinets, granite peninsula, stainless refrigerator and microwave, white electric range, vinyl plank appearance flooring; generally updated but modest range landing area",
+        "baths": "Updated primary double vanity and lower-level tiled steam shower; serviceability and waterproofing not verified",
+        "roof": "Seller reports replacement in 2022; invoice not recovered",
+        "hvac": "Seller reports furnace and air conditioning in 2020; not independently verified",
+        "windows": "Age unknown",
+        "siding": "Vinyl; age unknown",
+        "basement": "Finished recreation and flex rooms; block foundation; inaccessible unfinished storage and garage interiors",
+        "overall": "Clean neutral finishes in listing photographs, several rooms digitally furnished; no inspection"
+      },
+      "land": "Listing claims 0.68 exclusive acres, county GIS attribute 0.5366 acres and polygon calculation 0.536 acres. Survey needed. Wooded edges and sloping rear lawn, about twenty-five feet of mapped parcel elevation difference. FEMA Zone X; no mapped wetland intersection.",
+      "features": [
+        "Large vaulted great room with stone fireplace",
+        "Main-floor laundry",
+        "Municipal water and sewer",
+        "Four upper bedrooms; secondary bedrooms relatively compact",
+        "Kitchen and deck access; private rear tree cover"
+      ],
+      "limitations": [
+        "Garage below main living floor; entry and storage dimensions unknown",
+        "Retaining walls, front steps, deck and slope require inspection",
+        "No verified protected ownership of wooded backdrop",
+        "Covenants and shed permission not established"
+      ],
+      "prior_sales": [
+        {
+          "sale_date": "2017-10-09",
+          "sale_price": 274000
+        }
+      ]
+    },
+    "comps": [
+      {
+        "comp_id": "C1",
+        "market_area": "City of Waukesha, Manchester Hill near Lowell Park, same west-city market",
+        "property_type": "Two-story colonial",
+        "year_built": 1996,
+        "beds": 3,
+        "full_baths": 2,
+        "half_baths": 1,
+        "above_grade_sqft": 1944,
+        "below_grade_finished_sqft": 672,
+        "exclusive_lot_acres": 0.27,
+        "garage_spaces": 2.5,
+        "garage_attached": true,
+        "sale_date": "2026-03-30",
+        "sale_price": 540000,
+        "distance_miles": null,
+        "same_subdivision": null,
+        "condition": {
+          "kitchen": "Dark painted cabinets, island, stone-look counters; good presentation in reviewed photos",
+          "overall": "Maintained and updated; hardwood and plank floors; finished entertainment lower level claimed"
+        },
+        "features": [
+          "Park access",
+          "Main-floor laundry",
+          "Attached grade-level garage"
+        ],
+        "limitations": [
+          "Smaller exclusive lot, park adjacency does not add exclusive acreage"
+        ]
+      },
+      {
+        "comp_id": "C2",
+        "market_area": "City of Waukesha, Napa Trail cul-de-sac within the same immediate residential area",
+        "property_type": "Custom exposed ranch",
+        "year_built": 1988,
+        "beds": 3,
+        "full_baths": 2,
+        "half_baths": 1,
+        "above_grade_sqft": 2077,
+        "below_grade_finished_sqft": 768,
+        "exclusive_lot_acres": 0.86,
+        "garage_spaces": 3,
+        "garage_attached": true,
+        "sale_date": "2026-09-08",
+        "sale_price": 660000,
+        "distance_miles": 0.16,
+        "same_subdivision": null,
+        "condition": {
+          "kitchen": "Well-kept oak cabinetry and white counters and appliances; more dated finishes than Subject",
+          "baths": "Reviewed primary bath photograph shows separate shower and large tub; no inspection",
+          "overall": "Maintained custom home; some photos virtually staged; seller carpeting allowance claimed",
+          "hvac": "Seller reports furnace in 2025"
+        },
+        "features": [
+          "Large wooded lot",
+          "Grade-level three-car garage",
+          "Main-floor bedroom and laundry",
+          "Claimed large unfinished basement storage",
+          "Municipal utilities"
+        ],
+        "limitations": [
+          "Different ranch design and garage utility; superior lot area"
+        ]
+      },
+      {
+        "comp_id": "C3",
+        "market_area": "City of Waukesha, Cambridge Avenue in west-city residential market",
+        "property_type": "Colonial",
+        "year_built": 1972,
+        "beds": 4,
+        "full_baths": 3,
+        "half_baths": 0,
+        "above_grade_sqft": null,
+        "below_grade_finished_sqft": null,
+        "exclusive_lot_acres": 0.32,
+        "garage_spaces": 2,
+        "garage_attached": true,
+        "sale_date": "2026-07-08",
+        "sale_price": 525000,
+        "distance_miles": null,
+        "same_subdivision": null,
+        "condition": {
+          "overall": "Brokerage describes maintained home and updated kitchen; interiors not recovered"
+        },
+        "features": [
+          "Storage shed reported",
+          "Patio",
+          "Municipal utilities"
+        ],
+        "limitations": [
+          "Reported total finished area is 2508 square feet; grade split not verified",
+          "Condition is marketing claim, not photo-reviewed"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "image_id": "I01",
+        "property_id": "Subject",
+        "file": "I01.jpg",
+        "sha256": "81766f76970e977a056df78bb1bbfaee7a75ebae0eb4512784d18680cd7c5cf0",
+        "width": 1023,
+        "height": 767
+      },
+      {
+        "image_id": "I02",
+        "property_id": "Subject",
+        "file": "I02.jpg",
+        "sha256": "0f3a0621b5e7a4d033789cf361772570bb504b52f9766471d567d8a87dec0221",
+        "width": 1023,
+        "height": 767
+      },
+      {
+        "image_id": "I03",
+        "property_id": "Subject",
+        "file": "I03.jpg",
+        "sha256": "06055a592dbd64d25e1d8666e0c4b44bdc2b641bebf6d9f5c048d5861dbe3ae8",
+        "width": 1023,
+        "height": 767
+      },
+      {
+        "image_id": "I04",
+        "property_id": "Subject",
+        "file": "I04.jpg",
+        "sha256": "06c7c1db28c499e379871ae9246e92077cb2bbe28d517348fe2aabd4b7d73621",
+        "width": 1023,
+        "height": 767
+      },
+      {
+        "image_id": "I05",
+        "property_id": "Subject",
+        "file": "I05.jpg",
+        "sha256": "2aedfebfd251cdc48350b0c12c5944d6700e0f0052eca98ad5cf4efbe44207da",
+        "width": 1023,
+        "height": 767
+      },
+      {
+        "image_id": "I06",
+        "property_id": "Subject",
+        "file": "I06.jpg",
+        "sha256": "deb33c16b79c5c6bcec43dc2d60f6c59f73cbabd78768ccd2e82c2180278cbb8",
+        "width": 1023,
+        "height": 767
+      },
+      {
+        "image_id": "I07",
+        "property_id": "C1",
+        "file": "I07.jpg",
+        "sha256": "394f4c24c2c3e4812a69e971bbb6ab6c407abb46e5469dd440d4328a48bd52f9",
+        "width": 1023,
+        "height": 682
+      },
+      {
+        "image_id": "I08",
+        "property_id": "C2",
+        "file": "I08.jpg",
+        "sha256": "e924f2c1950e7d17b07bf703eb0f8326438d01d257bbe64bbe75cfe128274aa7",
+        "width": 1023,
+        "height": 682
+      }
+    ]
+  },
+  "result": {
+    "run_id": "1343cf5a9d524f41bfbd93a6cb3b71c7",
+    "packet_sha256": "bb7841e0df3268defff51d6f3bc79d541eb0bcd998da41fbd2954c7f39871acf",
+    "status": "valued",
+    "subject_asking_price_exposed": false,
+    "other_exposure": [],
+    "tools_used": [
+      "provided_packet"
+    ],
+    "value_low": 565000,
+    "value_mid": 595000,
+    "value_high": 625000,
+    "confidence": "low",
+    "comp_analysis": [
+      {
+        "comp_id": "C1",
+        "weight": 0.45,
+        "adjusted_value": 595000,
+        "reasoning": "Strongest architectural comparison and same west-city market. Subject has substantially more above-grade space, another bedroom and full bath, and a larger apparent parcel, supporting an upward adjustment. Subject's older construction and built-under garage offset some of those advantages. Subject has less finished basement area. The adjusted indication is approximate; paired-sale adjustment rates are unavailable."
+      },
+      {
+        "comp_id": "C2",
+        "weight": 0.3,
+        "adjusted_value": 615000,
+        "reasoning": "Very close and recently sold, providing strong location and timing evidence. Its larger wooded parcel, grade-level three-car garage, ranch layout and greater finished basement area support a downward adjustment. Subject's larger above-grade area, fourth bedroom, additional full bath and more updated described finishes offset part of that difference. Its distinct design and utility reduce comparability."
+      },
+      {
+        "comp_id": "C3",
+        "weight": 0.25,
+        "adjusted_value": 565000,
+        "reasoning": "Similar colonial design, construction era and bedroom count. Subject's above-grade area alone exceeds this comp's reported total finished area; its larger apparent parcel, additional half bath and greater garage capacity support an upward adjustment. Unverified floor-area allocation and unrecovered interior photographs limit the reliability and magnitude of that adjustment."
+      }
+    ],
+    "rationale": "Three completed 2026 sales support a provisional market-value range. The colonial comparisons indicate upward adjustments from their sale prices, while the nearby ranch provides an upper reference requiring a net downward adjustment for its land and garage advantages. Rounded reconciliation supports approximately $595,000, with a broad $565,000–$625,000 range reflecting incomplete comparability and condition verification. The 2017 subject sale is too old to translate into current value without market-trend evidence and receives no numerical weight.",
+    "assumptions": [
+      "The supplied sales are completed, arm's-length transactions without material undisclosed concessions.",
+      "Subject area, room counts and municipal utilities are substantially accurate.",
+      "Approximately 0.536 acres is used as the provisional parcel area; the larger listing acreage is not credited.",
+      "No material concealed structural, water-intrusion or mechanical defect exists beyond the disclosed uncertainty.",
+      "No quantified market-time adjustment is applied because supporting trend evidence was not supplied."
+    ],
+    "missing_evidence": [
+      "Verified sale concessions and transaction circumstances for all comparables.",
+      "Additional recent colonial sales with similar above-grade area, lot size and built-under garages.",
+      "Verified above-grade and below-grade area allocation and interior condition for C3.",
+      "Survey confirming exclusive parcel area and boundaries.",
+      "Inspection of foundation, retaining walls, deck, steps, garage and updated bathroom waterproofing.",
+      "Independent documentation of roof and HVAC replacements and local market trends through the valuation date."
+    ]
+  },
+  "receipt": {
+    "schema_version": 1,
+    "run_id": "1343cf5a9d524f41bfbd93a6cb3b71c7",
+    "packet_sha256": "bb7841e0df3268defff51d6f3bc79d541eb0bcd998da41fbd2954c7f39871acf",
+    "result_sha256": "491e5bfdd71fe1932d5cd783538731a39ca1b4db6636e62264803a2cf9410062",
+    "prepared_at": "2026-10-27T22:23:34.763539+00:00",
+    "locked_at": "2026-10-27T22:24:54.970607+00:00",
+    "agent_id": "/root/blind_value_final",
+    "context_attestation": {
+      "fresh_no_history": true,
+      "packet_only_requested": true
+    },
+    "method": "work_subagent_packet_only",
+    "limitations": "Fresh-context, packet-only instructions and exposure attestations; shared Work tools/files are not access-isolated. Hashes detect changes, not proof of blindness."
+  }
+}

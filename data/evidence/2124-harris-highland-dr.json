@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "slug": "2124-harris-highland-dr",
+  "observations": [
+    {
+      "fact": "listing.status",
+      "value": "Active",
+      "source_url": "https://www.atproperties.com/1976783/2124-harris-highland-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Live browser observed $539900 Active; source listing update Oct18. No direct MLS access.",
+      "event_date": null,
+      "id": "c6d69e909a177857ae169960cc15cc0173d125dcf84da637cc7834c0b2632ab1"
+    },
+    {
+      "fact": "listing.current_list_price",
+      "value": 539900,
+      "source_url": "https://www.atproperties.com/1976783/2124-harris-highland-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Cross-checked Zillow and Shorewest history; stale Realtor/Redfin snapshots show599900.",
+      "event_date": null,
+      "id": "f55e46500a299e42024946f46c52870cad0ebb13dd3e29674cd6de9d6586b456"
+    },
+    {
+      "fact": "tax.annual_bill",
+      "value": 7655,
+      "source_url": "https://www.atproperties.com/1976783/2124-harris-highland-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "listing_claim",
+      "kind": "tax",
+      "note": "MLS2025 claim; official bill not recovered. Zillow public-tax history7241 conflicts; do not treat as verified bill.",
+      "event_date": null,
+      "id": "91b52923d5a3e41f9dfd1d2e77fbc99f34d540b3c77a64ca86fe2a655672c8b9"
+    },
+    {
+      "fact": "tax.annual_bill",
+      "value": 7241,
+      "source_url": "https://www.zillow.com/homedetails/2124-Harris-Highland-Dr-Waukesha-WI-53188/40714961_zpid/",
+      "observed_at": "2026-10-27",
+      "basis": "listing_claim",
+      "kind": "tax",
+      "note": "Portal public-tax table; conflicts with MLS7655. Gross/net distinction unverified.",
+      "event_date": null,
+      "id": "1657711149d7fd9b57bf01b97d695d629325312993c72794bcb32db425d19623"
+    },
+    {
+      "fact": "systems.improvements",
+      "value": {
+        "roof": 2022,
+        "furnace_air_conditioning": 2020,
+        "attic_insulation": 2026,
+        "concrete_steps": 2024,
+        "garage_epoxy": 2026
+      },
+      "source_url": "https://www.atproperties.com/1976783/2124-harris-highland-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Dates are seller claims; no permits/invoices recovered.",
+      "event_date": null,
+      "id": "530324b7d7965add1499a8e3e510f30ed9b5fdcf166466c14daff82420470d6f"
+    },
+    {
+      "fact": "parcel.id",
+      "value": "WAKC1311050",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-27",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "County situs matches exact subject; MLS uses2911311050.",
+      "event_date": null,
+      "id": "03cb0f397f1e554e3aab963cbcc30f7bd5188e38c8736ba337b2280186f501ea"
+    },
+    {
+      "fact": "parcel.exclusive_acres",
+      "value": 0.68,
+      "source_url": "https://www.atproperties.com/1976783/2124-harris-highland-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "listing_claim",
+      "kind": "listing",
+      "note": "Listing acreage; conflicts with county GIS polygon. Exclusive legal acreage remains null pending survey.",
+      "event_date": null,
+      "id": "4de0e7b7a352e63fd2be5d846e097924813bb9ebb36e9968a17751842cb06085"
+    },
+    {
+      "fact": "parcel.exclusive_acres",
+      "value": 0.53663764,
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-27",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "GISAcres attribute. Projected polygon calculates0.535995 acre; neither is a legal survey.",
+      "event_date": null,
+      "id": "860df074f0c4441c92230d14beefa0f6354f5690c0afa1a7f4277d195f0c323d"
+    },
+    {
+      "fact": "parcel.zoning",
+      "value": "RN-2, Residential Neighborhood District 2",
+      "source_url": "https://gis.waukesha-wi.gov/server/rest/services/Geocortex/ParcelBasemap/MapServer/18",
+      "observed_at": "2026-10-27",
+      "basis": "official_record",
+      "kind": "gis",
+      "note": "City zoning polygon query for subject on Oct27. County town zoning not applicable.",
+      "event_date": null,
+      "id": "1c821203518d74c4db85a38a9ebdb39aa324446caf97e4dd7d62d7170da0cc9a"
+    },
+    {
+      "fact": "restrictions.small_shed",
+      "value": null,
+      "source_url": null,
+      "observed_at": "2026-10-27",
+      "basis": "unknown",
+      "kind": "document",
+      "note": "City general150sf rule with attached garage and rear-yard placement supported by2026 appeals; site plan, covenants and material rules unknown.",
+      "event_date": null,
+      "id": "9612962da8040a9d727224505822781480794da5336ef187d6282ca702c0c6a1"
+    },
+    {
+      "fact": "garden.usability",
+      "value": "Unconfirmed and weak: sloping wooded setting; a mapped40x30 rectangle fits but crosses901–910ft contours.",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-27",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Photo36 shows sloping lawn and mature shade. Geometry fit is not sunlight/grade/legal approval.",
+      "event_date": null,
+      "id": "37d56931426a9b015d50b0ac6a651b15c81e1a5cc40233d6f00974fa6e99ba19"
+    },
+    {
+      "fact": "photos.review",
+      "value": {
+        "gallery_images": 36,
+        "review": "All36 on three contact sheets; key kitchen, yard, laundry images inspected individually; some altered/staged views identified",
+        "limitations": "Garage and unfinished storage not shown clearly"
+      },
+      "source_url": "https://www.atproperties.com/1976783/2124-harris-highland-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "",
+      "event_date": null,
+      "id": "18f6493c5dab77dfe80c8db6b7b1e2b53c9d3ccf7c9f0a5774ed3393e31d868a"
+    },
+    {
+      "fact": "comps.condition",
+      "value": {
+        "C1": "Kitchen reviewed individually: dark cabinets and island; maintained finishes",
+        "C2": "Kitchen reviewed individually: maintained oak and white finishes; more dated than subject",
+        "C3": "Brokerage description only; interiors not recovered"
+      },
+      "source_url": "https://www.atproperties.com/1952680/147-manchester-dr-waukesha-wisconsin-53188-swi",
+      "observed_at": "2026-10-27",
+      "basis": "visual_observation",
+      "kind": "photo",
+      "note": "C2 source1973975 at same brokerage; completed sold facts preserved in narrative. Blind subagent used provided_packet only, not independent image inspection.",
+      "event_date": null,
+      "id": "5c5b52d441edff51d0dae5ac41316e6f45331e585c120121887e33e90ff801c4"
+    },
+    {
+      "fact": "risks.development",
+      "value": "Residential adjoining parcels; wooded backdrop not verified as protected/open-space ownership.",
+      "source_url": "https://gis.waukeshacounty.gov/host/rest/services/Web_Tax_Parcel/MapServer/2",
+      "observed_at": "2026-10-27",
+      "basis": "inference",
+      "kind": "analysis",
+      "note": "Adjacent parcel IDs include703/705Sunrise,2113ParkView,2116/2130Harris-Highland. No parcel-specific future-approval search result recovered.",
+      "event_date": null,
+      "id": "4f2fa049d9ff0c89925effa08f816eb0b08b4221091229f278d2eb8a7f5cee38"
+    }
+  ],
+  "public_review": {
+    "reviewed": true,
+    "reviewed_at": "2026-10-27T22:21:25.287904+00:00",
+    "scope": "Selected public findings only; original observation dates retained. No raw captures or private routing inputs."
+  }
+}
